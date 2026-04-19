@@ -100,9 +100,10 @@ export default function App() {
           <img src={imgFloralBg} className="absolute top-0 right-0 w-full md:w-3/4 opacity-15 mix-blend-multiply pointer-events-none translate-x-1/3 -translate-y-1/4 object-cover" alt="floral background" />
           
           <FadeIn>
-            <h2 className="font-serif text-3xl sm:text-4xl md:text-[3.5rem] leading-[1.2] relative z-10 w-full md:w-[120%] md:-ml-[5%] lg:w-[130%]">
-              "Because a portfolio might open doors, <br className="hidden md:block"/>
-              but your <span className="font-script text-5xl sm:text-6xl md:text-[6rem] text-brand-rose absolute top-1/2 left-1/2 -translate-x-[40%] -translate-y-[80%] -rotate-2 -z-10 mix-blend-multiply">skillset</span> <span className="relative z-10">is what keeps them open."</span>
+            <h2 className="font-serif text-3xl sm:text-4xl md:text-[3.5rem] leading-[1.2] relative z-10 pr-4">
+              "Because a portfolio might open doors, 
+              but your <span className="font-script text-5xl sm:text-6xl md:text-[5rem] text-brand-rose inline-block -rotate-2 mx-2">skillset</span> 
+              is what keeps them open."
             </h2>
             <div className="mt-12 md:mt-16 w-16 h-[0.5px] bg-brand-wine"></div>
             <p className="mt-8 text-sm md:text-base font-light leading-relaxed max-w-sm opacity-80">
@@ -133,9 +134,6 @@ export default function App() {
                    className="w-full h-full object-cover contrast-110 saturate-105" 
                    alt="floral inspiration" 
                  />
-                 <div className="absolute top-0 right-0 bg-brand-cream border-l-[0.5px] border-b-[0.5px] border-brand-wine/20 px-4 md:px-8 py-3 md:py-4">
-                    <span className="font-script text-3xl md:text-4xl text-brand-wine">Inspire</span>
-                 </div>
               </FadeIn>
             </div>
           </div>
