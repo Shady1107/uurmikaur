@@ -61,17 +61,17 @@ export default function App() {
         </div>
         
         {/* Right Panel - Image */}
-        <div className="lg:col-span-7 relative bg-brand-cream lg:p-6 p-4 border-t-[0.5px] border-brand-wine/20 lg:border-t-0">
-          <div className="w-full h-[50vh] sm:h-[60vh] lg:h-full relative overflow-hidden group">
+        <div className="lg:col-span-7 relative bg-brand-cream lg:p-8 p-6 border-t-[0.5px] border-brand-wine/20 lg:border-t-0 flex flex-col justify-center items-center">
+          <div className="w-full max-w-lg lg:max-w-xl aspect-[3/4] relative overflow-hidden group shadow-2xl">
             <motion.img 
-              style={{ y: heroY, scale: 1.1 }}
-              src="https://picsum.photos/seed/editorialmakeup/1200/1600" 
-              className="absolute inset-0 w-full h-full object-cover saturate-[0.8] contrast-[1.1] opacity-90"
+              style={{ y: heroY, scale: 1.15 }}
+              src="/images/makeupbyurmikaur_1776599422724.jpeg" 
+              onError={(e) => { e.currentTarget.src = "https://picsum.photos/seed/editorialmakeup/1200/1600"; e.currentTarget.onerror = null; }}
+              className="absolute inset-0 w-full h-full object-cover saturate-[1.1] contrast-[1.1] opacity-95"
               alt="Editorial Makeup"
-              referrerPolicy="no-referrer"
             />
             {/* Inner aesthetic frame */}
-            <div className="absolute inset-4 lg:inset-8 border-[0.5px] border-white/60 pointer-events-none z-20">
+            <div className="absolute inset-4 lg:inset-6 border-[0.5px] border-white/60 pointer-events-none z-20">
               <Crosshair className="-top-1.5 -left-1.5 text-white mix-blend-normal opacity-70" />
               <Crosshair className="-bottom-1.5 -right-1.5 text-white mix-blend-normal opacity-70" />
             </div>
@@ -82,7 +82,7 @@ export default function App() {
       {/* Slice 2: About / Quote Asymmetry */}
       <section className="grid grid-cols-1 lg:grid-cols-12 border-b-[0.5px] border-brand-wine/20">
         <div className="lg:col-span-6 p-8 sm:p-12 md:p-24 border-b-[0.5px] lg:border-b-0 lg:border-r-[0.5px] border-brand-wine/20 flex flex-col justify-center relative overflow-hidden bg-brand-cream">
-          <img src="https://picsum.photos/seed/vintagepeony/800/1000" className="absolute top-0 right-0 w-full md:w-3/4 opacity-10 mix-blend-multiply pointer-events-none translate-x-1/3 -translate-y-1/4" alt="floral background" referrerPolicy="no-referrer" />
+          <img src="/images/makeupbyurmikaur_1776599411503.jpeg" onError={(e) => { e.currentTarget.src = "https://picsum.photos/seed/vintagepeony/800/1000"; e.currentTarget.onerror = null; }} className="absolute top-0 right-0 w-full md:w-3/4 opacity-15 mix-blend-multiply pointer-events-none translate-x-1/3 -translate-y-1/4 object-cover" alt="floral background" />
           
           <FadeIn>
             <h2 className="font-serif text-3xl sm:text-4xl md:text-[3.5rem] leading-[1.2] relative z-10 w-full md:w-[120%] md:-ml-[5%] lg:w-[130%]">
@@ -111,9 +111,14 @@ export default function App() {
               </FadeIn>
             </div>
             {/* Staggered Floral Image Grid Block */}
-            <div className="p-8 md:p-12 relative overflow-hidden bg-brand-bg flex items-center justify-center">
-              <FadeIn className="w-full max-w-xs md:max-w-sm mx-auto aspect-square relative shadow-2xl">
-                 <img src="https://picsum.photos/seed/rosecloseup/600/600" className="w-full h-full object-cover grayscale-[30%] sepia-[10%] contrast-110" alt="floral inspiration" referrerPolicy="no-referrer" />
+            <div className="p-8 md:p-12 relative overflow-hidden bg-brand-bg flex items-center justify-center border-t-[0.5px] lg:border-t-0 border-brand-wine/20">
+              <FadeIn className="w-full max-w-xs lg:max-w-[280px] mx-auto aspect-[3/4] relative shadow-2xl">
+                 <img 
+                   src="/images/makeupbyurmikaur_1776599417439.jpeg" 
+                   onError={(e) => { e.currentTarget.src = "https://picsum.photos/seed/rosecloseup/600/600"; e.currentTarget.onerror = null; }}
+                   className="w-full h-full object-cover contrast-110 saturate-105" 
+                   alt="floral inspiration" 
+                 />
                  <div className="absolute top-0 right-0 bg-brand-cream border-l-[0.5px] border-b-[0.5px] border-brand-wine/20 px-4 md:px-8 py-3 md:py-4">
                     <span className="font-script text-3xl md:text-4xl text-brand-wine">Inspire</span>
                  </div>
@@ -146,9 +151,17 @@ export default function App() {
 
       {/* Slice 4: Highlights / Final Day */}
       <section className="grid grid-cols-1 lg:grid-cols-12 border-b-[0.5px] border-brand-wine/20 bg-brand-cream">
-        <div className="lg:col-span-4 p-0 relative h-[40vh] lg:h-auto border-b-[0.5px] lg:border-b-0 lg:border-r-[0.5px] border-brand-wine/20 overflow-hidden">
-          <img src="https://picsum.photos/seed/aestheticskin/800/1200" className="w-full h-full object-cover grayscale-[40%] contrast-110 sepia-[20%]" alt="Skin" referrerPolicy="no-referrer" />
-          <h2 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white font-serif text-5xl md:text-[6rem] leading-none text-center drop-shadow-xl mix-blend-overlay opacity-80 w-full px-4">BEAUTY<br/>SERVICE</h2>
+        <div className="lg:col-span-4 p-8 sm:p-12 md:p-16 flex items-center justify-center border-b-[0.5px] lg:border-b-0 lg:border-r-[0.5px] border-brand-wine/20 overflow-hidden">
+          <div className="relative w-full max-w-sm lg:max-w-md xl:max-w-lg aspect-[3/4] shadow-2xl overflow-hidden">
+            <img 
+              src="/images/uurmikaurr_1776530868942.jpeg" 
+              onError={(e) => { e.currentTarget.src = "https://picsum.photos/seed/aestheticskin/800/1200"; e.currentTarget.onerror = null; }}
+              className="w-full h-full object-cover contrast-110 saturate-[1.1]" 
+              alt="Beauty Service" 
+            />
+            <div className="absolute inset-0 bg-black/5" />
+            <h2 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white font-serif text-5xl md:text-6xl leading-none text-center drop-shadow-2xl mix-blend-overlay opacity-90 w-full px-4">BEAUTY<br/>SERVICE</h2>
+          </div>
         </div>
         
         <div className="lg:col-span-8 p-8 sm:p-10 md:p-20 grid grid-cols-1 md:grid-cols-2 gap-12 sm:gap-16">
@@ -208,8 +221,13 @@ export default function App() {
               <span className="font-serif text-3xl">Day 0</span>
               <span className="text-xs font-script mt-2 text-brand-accent">Optional</span>
             </div>
-            <div className="lg:col-span-4 p-8 border-r-[0.5px] border-brand-wine/20 hidden lg:flex items-center">
-               <img src="https://picsum.photos/seed/cleanface/600/400" className="w-full h-40 object-cover grayscale opacity-80" alt="skincare prep" referrerPolicy="no-referrer" />
+            <div className="lg:col-span-4 p-8 border-r-[0.5px] border-brand-wine/20 hidden lg:flex items-center justify-center">
+               <img 
+                 src="/images/uurmikaurr_1776530862673.jpeg" 
+                 onError={(e) => { e.currentTarget.src = "https://picsum.photos/seed/cleanface/600/400"; e.currentTarget.onerror = null; }}
+                 className="w-2/3 max-w-[200px] aspect-[3/4] object-cover opacity-95 shadow-lg" 
+                 alt="skincare prep" 
+               />
             </div>
             <div className="lg:col-span-5 p-8 flex flex-col justify-center">
               <h4 className="font-serif text-2xl mb-4">Introduction to Makeup</h4>
@@ -229,8 +247,9 @@ export default function App() {
               <span className="text-[10px] tracking-widest uppercase opacity-50 mb-2">3rd June</span>
               <span className="font-serif text-3xl">Day 1</span>
             </div>
-             <div className="lg:col-span-4 p-8 border-r-[0.5px] border-brand-wine/20 hidden lg:flex items-center">
+             <div className="lg:col-span-4 p-8 border-r-[0.5px] border-brand-wine/20 hidden lg:flex flex-col justify-center gap-8 items-center text-center">
                <h3 className="font-serif text-4xl text-brand-rose leading-tight">The Summer<br/>Edit Glow</h3>
+               <img src="/images/makeupbyurmikaur_1776599396333.jpeg" onError={(e) => { e.currentTarget.src="https://picsum.photos/seed/glow/600/400" }} className="w-2/3 max-w-[200px] aspect-[3/4] object-cover opacity-95 saturate-105 shadow-lg" alt="Summer Edit makeup preparation" />
             </div>
             <div className="lg:col-span-5 p-8 flex flex-col justify-center">
               <h4 className="font-serif text-2xl mb-4 text-brand-accent">Look 1</h4>
@@ -281,7 +300,10 @@ export default function App() {
             </div>
              <div className="lg:col-span-4 p-8 border-r-[0.5px] border-brand-wine/20 flex flex-col justify-center border-b-[0.5px] lg:border-b-0 border-brand-wine/20">
               <h4 className="font-serif text-2xl mb-4">Deep Dive</h4>
-              <p className="text-sm font-light opacity-80">Practice. Create. Shoot. We go deeper so you don't just learn makeup, you become an artist clients trust.</p>
+              <p className="text-sm font-light opacity-80 mb-6 mt-1">Practice. Create. Shoot. We go deeper so you don't just learn makeup, you become an artist clients trust.</p>
+              <div className="w-full flex justify-center lg:justify-start">
+                <img src="/images/makeupbyurmikaur_1776599387577.jpeg" onError={(e) => { e.currentTarget.src="https://picsum.photos/seed/makeupclass/600/400" }} className="w-1/2 max-w-[200px] lg:w-2/3 lg:max-w-xs aspect-[3/4] object-cover opacity-95 hidden sm:block shadow-lg border-[0.5px] border-brand-wine/20" alt="class session dive" />
+              </div>
             </div>
              <div className="lg:col-span-5 p-0 flex flex-col sm:flex-row">
                 <div className="flex-1 p-8 border-b-[0.5px] sm:border-b-0 sm:border-r-[0.5px] border-brand-wine/20">
@@ -300,7 +322,7 @@ export default function App() {
       {/* Slice 6: The Couture Portfolio Addon (Dark/High Contrast) */}
       <section className="bg-brand-accent text-brand-cream relative overflow-hidden border-y-[0.5px] border-brand-wine/20 mt-12 md:mt-20 mx-4 md:mx-10 rounded-sm">
          <div className="absolute inset-0 opacity-10 bg-[linear-gradient(to_right,#fff_1px,transparent_1px),linear-gradient(to_bottom,#fff_1px,transparent_1px)] bg-[size:3rem_3rem] md:bg-[size:4rem_4rem] pointer-events-none"></div>
-         <img src="https://picsum.photos/seed/editorialrose/1920/1080" className="absolute top-0 right-0 w-full md:w-1/2 h-full object-cover mix-blend-overlay opacity-30 pointer-events-none" alt="rose shadow" referrerPolicy="no-referrer" />
+         <img src="/images/makeupbyurmikaur_1776599391933.jpeg" onError={(e) => { e.currentTarget.src = "https://picsum.photos/seed/editorialrose/1920/1080"; e.currentTarget.onerror = null; }} className="absolute top-0 right-0 w-full md:w-1/2 h-full object-cover mix-blend-overlay opacity-50 pointer-events-none" alt="rose shadow" />
          
          <div className="p-8 sm:p-10 md:p-20 grid grid-cols-1 lg:grid-cols-12 gap-12 sm:gap-16 relative z-10 w-full">
             <div className="lg:col-span-12 break-words">
@@ -347,6 +369,31 @@ export default function App() {
                 </div>
             </div>
          </div>
+      </section>
+
+      {/* Slice 6.5: Portfolio Grid Selection */}
+      <section className="bg-brand-bg pt-12 md:pt-20 border-t-[0.5px] border-brand-wine/20">
+        <div className="text-center mb-16 relative">
+          <span className="font-script text-6xl md:text-[8rem] text-brand-rose absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-[60%] pointer-events-none drop-shadow-sm mix-blend-multiply opacity-60">Signature</span>
+          <h2 className="font-serif text-4xl md:text-6xl uppercase tracking-widest relative z-10">Couture Looks</h2>
+        </div>
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-0 border-y-[0.5px] border-brand-wine/20">
+          {[
+            "makeupbyurmikaur_1776599360692.jpeg", "uurmikaurr_1776530851457.jpeg",
+            "uurmikaurr_1776530847000.jpeg", "uurmikaurr_1776530843242.jpeg",
+            "uurmikaurr_1776530838850.jpeg", "uurmikaurr_1776530811688.jpeg"
+          ].map((filename, i) => (
+             <div key={i} className="aspect-[3/4] relative border-b-[0.5px] border-r-[0.5px] border-brand-wine/20 overflow-hidden group">
+               <img 
+                 src={`/images/${filename}`} 
+                 onError={(e) => { e.currentTarget.src = `https://picsum.photos/seed/bride${i}/800/1000`; e.currentTarget.onerror = null; }}
+                 className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105 saturate-105" 
+                 alt={`Portfolio Look ${i+1}`} 
+               />
+               <div className="absolute inset-0 bg-brand-wine/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
+             </div>
+          ))}
+        </div>
       </section>
 
       {/* Slice 7: Footer / Pricing */}
