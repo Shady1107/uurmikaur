@@ -2,7 +2,7 @@ import React from 'react';
 import { motion, useScroll, useTransform } from 'motion/react';
 import { MapPin } from 'lucide-react';
 
-const imgHero = '/images/makeupbyurmikaur_1776599422724.png';
+const imgHero = '/images/Uurmi.jpg';
 const imgFloralBg = '/images/makeupbyurmikaur_1776599411503.png';
 const imgFloralInspire = '/images/makeupbyurmikaur_1776599417439.png';
 const imgBeautyService = '/images/uurmikaurr_1776530868942.png';
@@ -11,7 +11,7 @@ const imgSummerGlow = '/images/makeupbyurmikaur_1776599396333.png';
 const imgClassDive = '/images/makeupbyurmikaur_1776599387577.png';
 const imgRoseShadow = '/images/makeupbyurmikaur_1776599391933.png';
 
-const imgCouture1 = '/images/makeupbyurmikaur_1776599360692.png';
+const imgCouture1 = '/images/makeupbyurmikaur_1776599422724.png'; // Old hero repurposed here
 const imgCouture2 = '/images/uurmikaurr_1776530851457.png';
 const imgCouture3 = '/images/uurmikaurr_1776530847000.png';
 const imgCouture4 = '/images/uurmikaurr_1776530843242.png';
