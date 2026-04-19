@@ -1,16 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@200;300;400;500;600&display=swap');
 @import "tailwindcss";
 
 @theme {
-  --font-serif: "Playfair Display", ui-serif, Georgia, serif;
-  --font-sans: "Inter", ui-sans-serif, sans-serif;
-  --font-script: "Alex Brush", cursive;
-  
-  --color-brand-bg: #f5e8e4; /* Soft peach/blush base */
-  --color-brand-wine: #5c3033; /* Deep burgundy/brown for text */
-  --color-brand-rose: #d69894; /* Darker dusty pink for accents */
-  --color-brand-cream: #faf5f0; /* Cream for contrasting boxes */
-  --color-brand-accent: #9f505a; /* Deep mauve */
+  --color-brand-bg: #fdf6f0;
+  --color-brand-cream: #f5ebe0;
+  --color-brand-rose: #c9848a;
+  --color-brand-wine: #5c2d3a;
+  --color-brand-accent: #8b4a52;
+
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-script: "Dancing Script", cursive;
+  --font-sans: "Inter", system-ui, sans-serif;
 }
 
 body {
