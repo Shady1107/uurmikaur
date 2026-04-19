@@ -22,6 +22,15 @@ const FadeIn = ({ children, delay = 0, className = '' }: any) => (
   </motion.div>
 );
 
+import img01 from '/public/images/makeupbyurmikaur_1776599422724.jpeg';
+import img02 from '/public/images/makeupbyurmikaur_1776599411503.jpeg';
+import img03 from '/public/images/makeupbyurmikaur_1776599417439.jpeg';
+import img04 from '/public/images/uurmikaurr_1776530868942.jpeg';
+import img05 from '/public/images/uurmikaurr_1776530862673.jpeg';
+import img06 from '/public/images/makeupbyurmikaur_1776599396333.jpeg';
+import img07 from '/public/images/makeupbyurmikaur_1776599387577.jpeg';
+import img08 from '/public/images/makeupbyurmikaur_1776599391933.jpeg';
+
 export default function App() {
   const { scrollYProgress } = useScroll();
   const heroY = useTransform(scrollYProgress, [0, 1], ['0%', '30%']);
@@ -65,7 +74,7 @@ export default function App() {
           <div className="w-full max-w-lg lg:max-w-xl aspect-[3/4] relative overflow-hidden group shadow-2xl">
             <motion.img 
               style={{ y: heroY, scale: 1.15 }}
-              src="/images/makeupbyurmikaur_1776599422724.jpeg" 
+              src={img01} 
               onError={(e) => { e.currentTarget.src = "https://picsum.photos/seed/editorialmakeup/1200/1600"; e.currentTarget.onerror = null; }}
               className="absolute inset-0 w-full h-full object-cover saturate-[1.1] contrast-[1.1] opacity-95"
               alt="Editorial Makeup"
@@ -82,7 +91,7 @@ export default function App() {
       {/* Slice 2: About / Quote Asymmetry */}
       <section className="grid grid-cols-1 lg:grid-cols-12 border-b-[0.5px] border-brand-wine/20">
         <div className="lg:col-span-6 p-8 sm:p-12 md:p-24 border-b-[0.5px] lg:border-b-0 lg:border-r-[0.5px] border-brand-wine/20 flex flex-col justify-center relative overflow-hidden bg-brand-cream">
-          <img src="/images/makeupbyurmikaur_1776599411503.jpeg" onError={(e) => { e.currentTarget.src = "https://picsum.photos/seed/vintagepeony/800/1000"; e.currentTarget.onerror = null; }} className="absolute top-0 right-0 w-full md:w-3/4 opacity-15 mix-blend-multiply pointer-events-none translate-x-1/3 -translate-y-1/4 object-cover" alt="floral background" />
+          <img src={img02} onError={(e) => { e.currentTarget.src = "https://picsum.photos/seed/vintagepeony/800/1000"; e.currentTarget.onerror = null; }} className="absolute top-0 right-0 w-full md:w-3/4 opacity-15 mix-blend-multiply pointer-events-none translate-x-1/3 -translate-y-1/4 object-cover" alt="floral background" />
           
           <FadeIn>
             <h2 className="font-serif text-3xl sm:text-4xl md:text-[3.5rem] leading-[1.2] relative z-10 w-full md:w-[120%] md:-ml-[5%] lg:w-[130%]">
@@ -114,7 +123,7 @@ export default function App() {
             <div className="p-8 md:p-12 relative overflow-hidden bg-brand-bg flex items-center justify-center border-t-[0.5px] lg:border-t-0 border-brand-wine/20">
               <FadeIn className="w-full max-w-xs lg:max-w-[280px] mx-auto aspect-[3/4] relative shadow-2xl">
                  <img 
-                   src="/images/makeupbyurmikaur_1776599417439.jpeg" 
+                   src={img03} 
                    onError={(e) => { e.currentTarget.src = "https://picsum.photos/seed/rosecloseup/600/600"; e.currentTarget.onerror = null; }}
                    className="w-full h-full object-cover contrast-110 saturate-105" 
                    alt="floral inspiration" 
@@ -154,7 +163,7 @@ export default function App() {
         <div className="lg:col-span-4 p-8 sm:p-12 md:p-16 flex items-center justify-center border-b-[0.5px] lg:border-b-0 lg:border-r-[0.5px] border-brand-wine/20 overflow-hidden">
           <div className="relative w-full max-w-sm lg:max-w-md xl:max-w-lg aspect-[3/4] shadow-2xl overflow-hidden">
             <img 
-              src="/images/uurmikaurr_1776530868942.jpeg" 
+              src={img04} 
               onError={(e) => { e.currentTarget.src = "https://picsum.photos/seed/aestheticskin/800/1200"; e.currentTarget.onerror = null; }}
               className="w-full h-full object-cover contrast-110 saturate-[1.1]" 
               alt="Beauty Service" 
@@ -223,7 +232,7 @@ export default function App() {
             </div>
             <div className="lg:col-span-4 p-8 border-r-[0.5px] border-brand-wine/20 hidden lg:flex items-center justify-center">
                <img 
-                 src="/images/uurmikaurr_1776530862673.jpeg" 
+                 src={img05} 
                  onError={(e) => { e.currentTarget.src = "https://picsum.photos/seed/cleanface/600/400"; e.currentTarget.onerror = null; }}
                  className="w-2/3 max-w-[200px] aspect-[3/4] object-cover opacity-95 shadow-lg" 
                  alt="skincare prep" 
@@ -249,7 +258,7 @@ export default function App() {
             </div>
              <div className="lg:col-span-4 p-8 border-r-[0.5px] border-brand-wine/20 hidden lg:flex flex-col justify-center gap-8 items-center text-center">
                <h3 className="font-serif text-4xl text-brand-rose leading-tight">The Summer<br/>Edit Glow</h3>
-               <img src="/images/makeupbyurmikaur_1776599396333.jpeg" onError={(e) => { e.currentTarget.src="https://picsum.photos/seed/glow/600/400" }} className="w-2/3 max-w-[200px] aspect-[3/4] object-cover opacity-95 saturate-105 shadow-lg" alt="Summer Edit makeup preparation" />
+               <img src={img06} onError={(e) => { e.currentTarget.src="https://picsum.photos/seed/glow/600/400" }} className="w-2/3 max-w-[200px] aspect-[3/4] object-cover opacity-95 saturate-105 shadow-lg" alt="Summer Edit makeup preparation" />
             </div>
             <div className="lg:col-span-5 p-8 flex flex-col justify-center">
               <h4 className="font-serif text-2xl mb-4 text-brand-accent">Look 1</h4>
@@ -302,7 +311,7 @@ export default function App() {
               <h4 className="font-serif text-2xl mb-4">Deep Dive</h4>
               <p className="text-sm font-light opacity-80 mb-6 mt-1">Practice. Create. Shoot. We go deeper so you don't just learn makeup, you become an artist clients trust.</p>
               <div className="w-full flex justify-center lg:justify-start">
-                <img src="/images/makeupbyurmikaur_1776599387577.jpeg" onError={(e) => { e.currentTarget.src="https://picsum.photos/seed/makeupclass/600/400" }} className="w-1/2 max-w-[200px] lg:w-2/3 lg:max-w-xs aspect-[3/4] object-cover opacity-95 hidden sm:block shadow-lg border-[0.5px] border-brand-wine/20" alt="class session dive" />
+                <img src={img07} onError={(e) => { e.currentTarget.src="https://picsum.photos/seed/makeupclass/600/400" }} className="w-1/2 max-w-[200px] lg:w-2/3 lg:max-w-xs aspect-[3/4] object-cover opacity-95 hidden sm:block shadow-lg border-[0.5px] border-brand-wine/20" alt="class session dive" />
               </div>
             </div>
              <div className="lg:col-span-5 p-0 flex flex-col sm:flex-row">
@@ -322,7 +331,7 @@ export default function App() {
       {/* Slice 6: The Couture Portfolio Addon (Dark/High Contrast) */}
       <section className="bg-brand-accent text-brand-cream relative overflow-hidden border-y-[0.5px] border-brand-wine/20 mt-12 md:mt-20 mx-4 md:mx-10 rounded-sm">
          <div className="absolute inset-0 opacity-10 bg-[linear-gradient(to_right,#fff_1px,transparent_1px),linear-gradient(to_bottom,#fff_1px,transparent_1px)] bg-[size:3rem_3rem] md:bg-[size:4rem_4rem] pointer-events-none"></div>
-         <img src="/images/makeupbyurmikaur_1776599391933.jpeg" onError={(e) => { e.currentTarget.src = "https://picsum.photos/seed/editorialrose/1920/1080"; e.currentTarget.onerror = null; }} className="absolute top-0 right-0 w-full md:w-1/2 h-full object-cover mix-blend-overlay opacity-50 pointer-events-none" alt="rose shadow" />
+         <img src={img08} onError={(e) => { e.currentTarget.src = "https://picsum.photos/seed/editorialrose/1920/1080"; e.currentTarget.onerror = null; }} className="absolute top-0 right-0 w-full md:w-1/2 h-full object-cover mix-blend-overlay opacity-50 pointer-events-none" alt="rose shadow" />
          
          <div className="p-8 sm:p-10 md:p-20 grid grid-cols-1 lg:grid-cols-12 gap-12 sm:gap-16 relative z-10 w-full">
             <div className="lg:col-span-12 break-words">
@@ -379,13 +388,16 @@ export default function App() {
         </div>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-0 border-y-[0.5px] border-brand-wine/20">
           {[
-            "makeupbyurmikaur_1776599360692.jpeg", "uurmikaurr_1776530851457.jpeg",
-            "uurmikaurr_1776530847000.jpeg", "uurmikaurr_1776530843242.jpeg",
-            "uurmikaurr_1776530838850.jpeg", "uurmikaurr_1776530811688.jpeg"
-          ].map((filename, i) => (
+            new URL('/public/images/makeupbyurmikaur_1776599360692.jpeg', import.meta.url).href,
+            new URL('/public/images/uurmikaurr_1776530851457.jpeg', import.meta.url).href,
+            new URL('/public/images/uurmikaurr_1776530847000.jpeg', import.meta.url).href,
+            new URL('/public/images/uurmikaurr_1776530843242.jpeg', import.meta.url).href,
+            new URL('/public/images/uurmikaurr_1776530838850.jpeg', import.meta.url).href,
+            new URL('/public/images/uurmikaurr_1776530811688.jpeg', import.meta.url).href
+          ].map((url, i) => (
              <div key={i} className="aspect-[3/4] relative border-b-[0.5px] border-r-[0.5px] border-brand-wine/20 overflow-hidden group">
                <img 
-                 src={`/images/${filename}`} 
+                 src={url} 
                  onError={(e) => { e.currentTarget.src = `https://picsum.photos/seed/bride${i}/800/1000`; e.currentTarget.onerror = null; }}
                  className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105 saturate-105" 
                  alt={`Portfolio Look ${i+1}`} 
