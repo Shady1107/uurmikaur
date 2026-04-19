@@ -2,21 +2,21 @@ import React from 'react';
 import { motion, useScroll, useTransform } from 'motion/react';
 import { MapPin } from 'lucide-react';
 
-import imgHero from '../public/images/makeupbyurmikaur_1776599422724.jpeg';
-import imgFloralBg from '../public/images/makeupbyurmikaur_1776599411503.jpeg';
-import imgFloralInspire from '../public/images/makeupbyurmikaur_1776599417439.jpeg';
-import imgBeautyService from '../public/images/uurmikaurr_1776530868942.jpeg';
-import imgSkincarePrep from '../public/images/uurmikaurr_1776530862673.jpeg';
-import imgSummerGlow from '../public/images/makeupbyurmikaur_1776599396333.jpeg';
-import imgClassDive from '../public/images/makeupbyurmikaur_1776599387577.jpeg';
-import imgRoseShadow from '../public/images/makeupbyurmikaur_1776599391933.jpeg';
+import imgHero from '../public/images/makeupbyurmikaur_1776599422724.jpg';
+import imgFloralBg from '../public/images/makeupbyurmikaur_1776599411503.jpg';
+import imgFloralInspire from '../public/images/makeupbyurmikaur_1776599417439.jpg';
+import imgBeautyService from '../public/images/uurmikaurr_1776530868942.jpg';
+import imgSkincarePrep from '../public/images/uurmikaurr_1776530862673.jpg';
+import imgSummerGlow from '../public/images/makeupbyurmikaur_1776599396333.jpg';
+import imgClassDive from '../public/images/makeupbyurmikaur_1776599387577.jpg';
+import imgRoseShadow from '../public/images/makeupbyurmikaur_1776599391933.jpg';
 
-import imgCouture1 from '../public/images/makeupbyurmikaur_1776599360692.jpeg';
-import imgCouture2 from '../public/images/uurmikaurr_1776530851457.jpeg';
-import imgCouture3 from '../public/images/uurmikaurr_1776530847000.jpeg';
-import imgCouture4 from '../public/images/uurmikaurr_1776530843242.jpeg';
-import imgCouture5 from '../public/images/uurmikaurr_1776530838850.jpeg';
-import imgCouture6 from '../public/images/uurmikaurr_1776530811688.jpeg';
+import imgCouture1 from '../public/images/makeupbyurmikaur_1776599360692.jpg';
+import imgCouture2 from '../public/images/uurmikaurr_1776530851457.jpg';
+import imgCouture3 from '../public/images/uurmikaurr_1776530847000.jpg';
+import imgCouture4 from '../public/images/uurmikaurr_1776530843242.jpg';
+import imgCouture5 from '../public/images/uurmikaurr_1776530838850.jpg';
+import imgCouture6 from '../public/images/uurmikaurr_1776530811688.jpg';
 
 // Editorial grid fine lines components
 const Crosshair = ({ className = '' }: { className?: string }) => (
