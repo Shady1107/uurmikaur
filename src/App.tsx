@@ -422,7 +422,6 @@ export default function App() {
         <div className="mt-16 md:mt-20 text-center w-full px-4 break-words">
             <h3 className="font-script text-4xl sm:text-5xl mb-4 text-brand-rose drop-shadow-sm">Contact Us</h3>
             <p className="text-sm uppercase tracking-widest opacity-60 mb-2 flex items-center justify-center gap-3"><MapPin className="w-3 h-3 shrink-0" /> <span className="truncate">Mumbai, Andheri</span></p>
-            <p className="text-sm font-light mt-8 opacity-40 leading-relaxed">Looking for an internship? Contact our team. <br className="sm:hidden" />© {new Date().getFullYear()} UURMI KAURR.</p>
         </div>
       </section>
       
