@@ -48,7 +48,7 @@ export default function App() {
       {/* Navigation - Ultra Minimal */}
       <nav className="fixed top-0 left-0 w-full px-6 md:px-12 py-6 z-50 flex justify-between items-center border-[0.5px] border-b-brand-wine/20 bg-brand-bg/80 backdrop-blur-md">
         <div className="font-serif text-lg tracking-widest uppercase">Uurmi Kaurr</div>
-        <button className="text-[10px] font-sans tracking-[0.2em] uppercase border border-brand-wine px-4 md:px-6 py-2 hover:bg-brand-wine hover:text-brand-cream transition-colors">
+        <button className="text-xs font-sans tracking-[0.2em] uppercase border border-brand-wine px-4 md:px-6 py-2 hover:bg-brand-wine hover:text-brand-cream transition-colors">
           Enroll Now
         </button>
       </nav>
@@ -61,7 +61,7 @@ export default function App() {
           <Crosshair className="-bottom-1.5 right-1/4 lg:hidden" />
           
           <FadeIn>
-            <p className="uppercase tracking-[0.35em] text-[10px] mb-12 opacity-70">An Empowering Journey</p>
+            <p className="uppercase tracking-[0.35em] text-xs mb-12 opacity-70">An Empowering Journey</p>
             <div className="relative mb-20 z-10 w-full md:w-max">
               <h1 className="font-serif text-6xl md:text-8xl lg:text-[8rem] leading-[0.8] uppercase font-light">7 Days</h1>
               <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-none uppercase font-light mt-4 ml-1 md:ml-2">Pro Makeup</h1>
@@ -69,9 +69,9 @@ export default function App() {
             </div>
             
             <div className="space-y-4">
-              <p className="flex items-center gap-6 text-[10px] tracking-[0.2em] uppercase opacity-80"><span className="w-8 md:w-12 h-[1px] bg-brand-wine opacity-50 shrink-0"></span> Be a Visionary</p>
-              <p className="flex items-center gap-6 text-[10px] tracking-[0.2em] uppercase opacity-80"><span className="w-8 md:w-12 h-[1px] bg-brand-wine opacity-50 shrink-0"></span> Create Your Identity</p>
-              <p className="flex items-center gap-6 text-[10px] tracking-[0.2em] uppercase opacity-80"><span className="w-8 md:w-12 h-[1px] bg-brand-wine opacity-50 shrink-0"></span> Elevate & Be Polished</p>
+              <p className="flex items-center gap-6 text-xs tracking-[0.2em] uppercase opacity-80"><span className="w-8 md:w-12 h-[1px] bg-brand-wine opacity-50 shrink-0"></span> Be a Visionary</p>
+              <p className="flex items-center gap-6 text-xs tracking-[0.2em] uppercase opacity-80"><span className="w-8 md:w-12 h-[1px] bg-brand-wine opacity-50 shrink-0"></span> Create Your Identity</p>
+              <p className="flex items-center gap-6 text-xs tracking-[0.2em] uppercase opacity-80"><span className="w-8 md:w-12 h-[1px] bg-brand-wine opacity-50 shrink-0"></span> Elevate & Be Polished</p>
             </div>
           </FadeIn>
         </div>
@@ -106,7 +106,7 @@ export default function App() {
               is what keeps them open."
             </h2>
             <div className="mt-12 md:mt-16 w-16 h-[0.5px] bg-brand-wine"></div>
-            <p className="mt-8 text-sm md:text-base font-light leading-relaxed max-w-sm opacity-80">
+            <p className="mt-8 text-base md:text-lg font-light leading-relaxed max-w-sm opacity-80">
               This course is designed to help you think strategically, create intentionally, and deliver consistently so you’re not just following trends, you’re setting your own standard.
             </p>
           </FadeIn>
@@ -118,10 +118,10 @@ export default function App() {
               <Crosshair className="bottom-0 right-1/2 translate-y-1/2 hidden md:block" />
               <FadeIn delay={0.2}>
                 <h3 className="font-serif text-3xl sm:text-4xl mb-6">About Uurmi</h3>
-                <p className="text-sm font-light leading-relaxed opacity-80 mb-4">
+                <p className="text-base font-light leading-relaxed opacity-80 mb-4">
                   Born and raised in Mumbai, Uurmi Kaurr is a powerful blend of creativity, passion, and purpose. Beginning her journey at Lowe Lintas, her true calling led her into makeup artistry, evolving from a MAC artist to a celebrated name in bridal and destination weddings.
                 </p>
-                <p className="text-sm font-light leading-relaxed opacity-80">
+                <p className="text-base font-light leading-relaxed opacity-80">
                   A passionate educator mentored over 600+ students, her philosophy goes beyond creating beauty—it’s about building genuine connections and enhancing individuality.
                 </p>
               </FadeIn>
@@ -142,7 +142,7 @@ export default function App() {
 
       {/* Slice 3: Goals Bento (Editorial Style) */}
       <section className="border-b-[0.5px] border-brand-wine/20 overflow-hidden">
-        <div className="border-b-[0.5px] border-brand-wine/20 p-6 md:p-8 flex items-center justify-center tracking-[0.4em] uppercase text-[10px] bg-brand-cream text-center">
+        <div className="border-b-[0.5px] border-brand-wine/20 p-6 md:p-8 flex items-center justify-center tracking-[0.4em] uppercase text-xs bg-brand-cream text-center">
           Focus & Value
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4">
@@ -153,9 +153,9 @@ export default function App() {
             { tag: "(04)", title: "LEARN DEEPLY", text: "Master content creation simultaneously." }
           ].map((item, i) => (
              <div key={i} className="p-8 md:p-10 border-b-[0.5px] sm:border-b-[0.5px] md:border-b-0 border-r-[0.5px] border-brand-wine/20 relative hover:bg-brand-rose/10 transition-colors">
-                <span className="text-xs font-serif opacity-50 mb-8 block">{item.tag}</span>
+                <span className="text-sm font-serif opacity-50 mb-8 block">{item.tag}</span>
                 <h4 className="font-serif text-xl md:text-2xl lg:text-3xl mb-4 leading-tight">{item.title}</h4>
-                <p className="text-sm font-light opacity-70 leading-relaxed">{item.text}</p>
+                <p className="text-base font-light opacity-70 leading-relaxed">{item.text}</p>
              </div>
           ))}
         </div>
@@ -180,7 +180,7 @@ export default function App() {
             <h3 className="font-serif text-3xl mb-6 flex items-center gap-4">
               <span className="font-script text-4xl sm:text-5xl text-brand-rose -ml-2">Highlights</span>
             </h3>
-            <ul className="space-y-4 text-sm font-light">
+            <ul className="space-y-4 text-base font-light">
               {[
                 "Airbrush Makeup Demonstration",
                 "1 Portfolio Shoot",
@@ -190,7 +190,7 @@ export default function App() {
                 "Optional 2 Photoshoots on last day"
               ].map((item, i) => (
                 <li key={i} className="flex gap-4 items-start pb-4 border-b-[0.5px] border-brand-wine/10 last:border-0 pr-4">
-                  <span className="text-[9px] opacity-40 mt-1 shrink-0">0{i+1}</span>
+                  <span className="text-[10px] opacity-40 mt-1 shrink-0">0{i+1}</span>
                   <span className="opacity-90">{item}</span>
                 </li>
               ))}
@@ -201,7 +201,7 @@ export default function App() {
              <h3 className="font-serif text-3xl mb-6 flex items-center gap-4">
               <span className="font-script text-4xl sm:text-5xl text-brand-rose -ml-2">Final Day</span>
             </h3>
-            <ul className="space-y-4 text-sm font-light">
+            <ul className="space-y-4 text-base font-light">
                {[
                   "Full-Day Intensive Practice", "Interactive Q&A", 
                   "Photoshoot (optional)", "In-depth Product Knowledge", 
@@ -228,9 +228,9 @@ export default function App() {
           {/* Day 0 */}
           <div className="grid grid-cols-1 lg:grid-cols-12 hover:bg-brand-cream transition-colors duration-500">
             <div className="lg:col-span-3 p-8 border-r-[0.5px] border-brand-wine/transparent lg:border-brand-wine/20 flex flex-col justify-center border-b-[0.5px] lg:border-b-0 border-brand-wine/20">
-              <span className="text-[10px] tracking-widest uppercase opacity-50 mb-2">1st June</span>
+              <span className="text-xs tracking-widest uppercase opacity-50 mb-2">1st June</span>
               <span className="font-serif text-3xl">Day 0</span>
-              <span className="text-xs font-script mt-2 text-brand-accent">Optional</span>
+              <span className="text-sm font-script mt-2 text-brand-accent">Optional</span>
             </div>
             <div className="lg:col-span-4 p-8 border-r-[0.5px] border-brand-wine/20 hidden lg:flex items-center justify-center">
                <img 
@@ -241,8 +241,8 @@ export default function App() {
             </div>
             <div className="lg:col-span-5 p-8 flex flex-col justify-center">
               <h4 className="font-serif text-2xl mb-4">Introduction to Makeup</h4>
-              <p className="text-sm font-light opacity-80 mb-4">Online Session via Zoom. 12 PM - 2 PM. Mastering the basics is what sets you apart.</p>
-              <ul className="text-xs font-light opacity-70 space-y-1 list-disc list-inside ml-2">
+              <p className="text-base font-light opacity-80 mb-4">Online Session via Zoom. 12 PM - 2 PM. Mastering the basics is what sets you apart.</p>
+              <ul className="text-sm font-light opacity-70 space-y-1 list-disc list-inside ml-2">
                 <li>Skin types, prep & hydration</li>
                 <li>Undertones, foundations & concealers</li>
                 <li>Colour theory aesthetics</li>
@@ -254,7 +254,7 @@ export default function App() {
           {/* Day 1 */}
           <div className="grid grid-cols-1 lg:grid-cols-12 hover:bg-brand-cream transition-colors duration-500">
             <div className="lg:col-span-3 p-8 border-r-[0.5px] border-brand-wine/transparent lg:border-brand-wine/20 flex flex-col justify-center border-b-[0.5px] lg:border-b-0 border-brand-wine/20">
-              <span className="text-[10px] tracking-widest uppercase opacity-50 mb-2">3rd June</span>
+              <span className="text-xs tracking-widest uppercase opacity-50 mb-2">3rd June</span>
               <span className="font-serif text-3xl">Day 1</span>
             </div>
              <div className="lg:col-span-4 p-8 border-r-[0.5px] border-brand-wine/20 hidden lg:flex flex-col justify-center gap-8 items-center text-center">
@@ -263,8 +263,8 @@ export default function App() {
             </div>
             <div className="lg:col-span-5 p-8 flex flex-col justify-center">
               <h4 className="font-serif text-2xl mb-4 text-brand-accent">Look 1</h4>
-              <p className="text-sm font-light opacity-80 mb-4">Luminous Skin & Soft Sculpt. Skin First. Glam Second. Achieve a dewy base that survives summer heat while looking refined.</p>
-              <ul className="text-xs font-light opacity-70 space-y-2 grid grid-cols-1 sm:grid-cols-2 gap-x-4">
+              <p className="text-base font-light opacity-80 mb-4">Luminous Skin & Soft Sculpt. Skin First. Glam Second. Achieve a dewy base that survives summer heat while looking refined.</p>
+              <ul className="text-sm font-light opacity-70 space-y-2 grid grid-cols-1 sm:grid-cols-2 gap-x-4">
                 <li>• Mix liquids & creams</li>
                 <li>• Seamless blending</li>
                 <li>• Soft sculpting</li>
@@ -276,26 +276,26 @@ export default function App() {
           {/* Day 2-4 Compact */}
           <div className="grid grid-cols-1 sm:grid-cols-3 divide-y-[0.5px] sm:divide-y-0 sm:divide-x-[0.5px] divide-brand-wine/20">
              <div className="p-8 sm:p-10 flex flex-col items-center text-center hover:bg-brand-cream transition-colors">
-                <span className="text-[10px] tracking-[0.2em] opacity-50 mb-4">DAY 2 / 4TH JUNE</span>
+                <span className="text-xs tracking-[0.2em] opacity-50 mb-4">DAY 2 / 4TH JUNE</span>
                 <h4 className="font-serif text-2xl mb-4">Look 2</h4>
-                <p className="text-sm font-light opacity-70">Phone & lighting class with social media content generation.</p>
+                <p className="text-base font-light opacity-70">Phone & lighting class with social media content generation.</p>
              </div>
              <div className="p-8 sm:p-10 flex flex-col items-center text-center hover:bg-brand-cream transition-colors">
-                <span className="text-[10px] tracking-[0.2em] opacity-50 mb-4">DAY 3 / 5TH JUNE</span>
+                <span className="text-xs tracking-[0.2em] opacity-50 mb-4">DAY 3 / 5TH JUNE</span>
                 <h4 className="font-serif text-2xl mb-4">Looks 3 & 4</h4>
-                <p className="text-sm font-light opacity-70">Expanding versatility through diverse makeup demonstrations.</p>
+                <p className="text-base font-light opacity-70">Expanding versatility through diverse makeup demonstrations.</p>
              </div>
              <div className="p-8 sm:p-10 flex flex-col items-center text-center bg-brand-rose/10 hover:bg-brand-cream transition-colors">
-                <span className="text-[10px] tracking-[0.2em] opacity-50 mb-4">DAY 4 / 6TH JUNE</span>
+                <span className="text-xs tracking-[0.2em] opacity-50 mb-4">DAY 4 / 6TH JUNE</span>
                 <h4 className="font-serif text-2xl mb-4">Looks 5 & 6</h4>
-                <p className="text-sm font-light opacity-70">Advanced techniques and finalizing the core demonstration looks.</p>
+                <p className="text-base font-light opacity-70">Advanced techniques and finalizing the core demonstration looks.</p>
              </div>
           </div>
 
           {/* Day 5 & 6 */}
            <div className="grid grid-cols-1 lg:grid-cols-12 hover:bg-brand-cream transition-colors duration-500">
             <div className="lg:col-span-3 p-8 border-r-[0.5px] border-brand-wine/transparent lg:border-brand-wine/20 flex flex-col justify-center border-b-[0.5px] lg:border-b-0 border-brand-wine/20">
-              <span className="text-[10px] tracking-widest uppercase opacity-50 mb-2">7th June</span>
+              <span className="text-xs tracking-widest uppercase opacity-50 mb-2">7th June</span>
               <span className="font-serif text-3xl">Day 5</span>
             </div>
              <div className="lg:col-span-9 p-8 flex flex-col justify-center">
@@ -305,12 +305,12 @@ export default function App() {
 
           <div className="grid grid-cols-1 lg:grid-cols-12 bg-white hover:bg-brand-cream transition-colors duration-500">
             <div className="lg:col-span-3 p-8 border-r-[0.5px] border-brand-wine/transparent lg:border-brand-wine/20 flex flex-col justify-center border-b-[0.5px] lg:border-b-0 border-brand-wine/20">
-              <span className="text-[10px] tracking-widest uppercase opacity-50 mb-2">8th June</span>
+              <span className="text-xs tracking-widest uppercase opacity-50 mb-2">8th June</span>
               <span className="font-serif text-3xl">Day 6</span>
             </div>
              <div className="lg:col-span-4 p-8 border-r-[0.5px] border-brand-wine/20 flex flex-col justify-center border-b-[0.5px] lg:border-b-0 border-brand-wine/20">
               <h4 className="font-serif text-2xl mb-4">Deep Dive</h4>
-              <p className="text-sm font-light opacity-80 mb-6 mt-1">Practice. Create. Shoot. We go deeper so you don't just learn makeup, you become an artist clients trust.</p>
+              <p className="text-base font-light opacity-80 mb-6 mt-1">Practice. Create. Shoot. We go deeper so you don't just learn makeup, you become an artist clients trust.</p>
               <div className="w-full flex justify-center lg:justify-start">
                 <img src={imgClassDive} className="w-1/2 max-w-[200px] lg:w-2/3 lg:max-w-xs aspect-[3/4] object-cover opacity-95 hidden sm:block shadow-lg border-[0.5px] border-brand-wine/20" alt="class session dive" />
               </div>
@@ -318,11 +318,11 @@ export default function App() {
              <div className="lg:col-span-5 p-0 flex flex-col sm:flex-row">
                 <div className="flex-1 p-8 border-b-[0.5px] sm:border-b-0 sm:border-r-[0.5px] border-brand-wine/20">
                    <h5 className="font-serif text-lg mb-2">A: Elevate</h5>
-                   <p className="text-xs font-light opacity-70">Practice skills and capture beauty shots with team support.</p>
+                   <p className="text-sm font-light opacity-70">Practice skills and capture beauty shots with team support.</p>
                 </div>
                  <div className="flex-1 p-8 bg-brand-rose/20 relative">
-                   <h5 className="font-serif text-lg mb-2 flex items-center">B: Portfolio <span className="text-[8px] font-sans tracking-widest uppercase ml-2 border border-brand-wine px-1 py-0.5 shrink-0">Opt</span></h5>
-                   <p className="text-xs font-light opacity-80">Build your professional portfolio with guided looks & styling.</p>
+                   <h5 className="font-serif text-lg mb-2 flex items-center">B: Portfolio <span className="text-[10px] font-sans tracking-widest uppercase ml-2 border border-brand-wine px-1 py-0.5 shrink-0">Opt</span></h5>
+                   <p className="text-sm font-light opacity-80">Build your professional portfolio with guided looks & styling.</p>
                 </div>
             </div>
           </div>
@@ -341,40 +341,39 @@ export default function App() {
                <p className="text-sm md:text-base font-light max-w-lg mt-2 md:mt-8 opacity-90 leading-relaxed border-l-[0.5px] border-white/30 pl-4 md:pl-6">
                  An optional add-on experience designed for maximum impact. Dedicated to realizing your vision with precision and artistry. 
                </p>
-            </div>
-
-            <div className="lg:col-span-6 bg-brand-wine/40 backdrop-blur-md p-6 sm:p-10 border-[0.5px] border-white/20">
-               <h3 className="uppercase tracking-[0.2em] text-xs mb-6 md:mb-8 opacity-60">What's Included</h3>
+             </div>
+             
+             <div className="lg:col-span-6 bg-brand-wine/40 backdrop-blur-md p-6 sm:p-10 border-[0.5px] border-white/20">
+               <h3 className="uppercase tracking-[0.2em] text-sm mb-6 md:mb-8 opacity-60">What's Included</h3>
                <ul className="space-y-4">
                  {[
                     "2 Guided Portfolio Shoots", "Sourced Indian Outfits & Jewellery",
                     "Professional Stylist on board", "Exclusive Consultation with Uurmi",
                     "Professional Photography & Reel Team", "Location Provided"
                  ].map((t, i) => (
-                    <li key={i} className="text-xs sm:text-sm font-light opacity-90 flex gap-4"><span className="text-[10px] opacity-40 shrink-0">0{i+1}</span>{t}</li>
+                    <li key={i} className="text-sm font-light opacity-90 flex gap-4"><span className="text-[10px] opacity-40 shrink-0">0{i+1}</span>{t}</li>
                  ))}
                </ul>
-               <p className="mt-6 md:mt-8 text-[10px] opacity-50 uppercase tracking-widest leading-relaxed border-t-[0.5px] border-white/20 pt-4">Note: Excludes Hair Artist & Model<br/>(Team can assist at cost)</p>
+               <p className="mt-6 md:mt-8 text-xs opacity-50 uppercase tracking-widest leading-relaxed border-t-[0.5px] border-white/20 pt-4">Note: Excludes Hair Artist & Model<br/>(Team can assist at cost)</p>
             </div>
-
-            <div className="lg:col-span-6 bg-brand-wine/40 backdrop-blur-md p-6 sm:p-10 border-[0.5px] border-white/20">
-                <h3 className="uppercase tracking-[0.2em] text-xs mb-6 md:mb-8 opacity-60">Deliverables</h3>
+             <div className="lg:col-span-6 bg-brand-wine/40 backdrop-blur-md p-6 sm:p-10 border-[0.5px] border-white/20">
+                <h3 className="uppercase tracking-[0.2em] text-sm mb-6 md:mb-8 opacity-60">Deliverables</h3>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-8">
                   <div>
                      <h4 className="font-serif text-xl sm:text-2xl mb-2 text-brand-rose">Reels</h4>
-                     <p className="text-xs font-light opacity-80 leading-relaxed">2 Full-Look iPhone Reels optimized for social.</p>
+                     <p className="text-sm font-light opacity-80 leading-relaxed">2 Full-Look iPhone Reels optimized for social.</p>
                   </div>
                   <div>
                      <h4 className="font-serif text-xl sm:text-2xl mb-2 text-brand-rose">Instant</h4>
-                     <p className="text-xs font-light opacity-80 leading-relaxed">Unedited content Airdropped same day.</p>
+                     <p className="text-sm font-light opacity-80 leading-relaxed">Unedited content Airdropped same day.</p>
                   </div>
                   <div>
                      <h4 className="font-serif text-xl sm:text-2xl mb-2 text-brand-rose">Imagery</h4>
-                     <p className="text-xs font-light opacity-80 leading-relaxed">4-5 pro edited high-quality images per look.</p>
+                     <p className="text-sm font-light opacity-80 leading-relaxed">4-5 pro edited high-quality images per look.</p>
                   </div>
                    <div>
                      <h4 className="font-serif text-xl sm:text-2xl mb-2 text-brand-rose">Timeline</h4>
-                     <p className="text-xs font-light opacity-80 leading-relaxed">1 Month Turnaround Time for final edits.</p>
+                     <p className="text-sm font-light opacity-80 leading-relaxed">1 Month Turnaround Time for final edits.</p>
                   </div>
                 </div>
             </div>
@@ -407,23 +406,23 @@ export default function App() {
           <Crosshair className="top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-brand-wine opacity-20 hidden md:flex" />
           
           <div className="p-8 sm:p-12 md:p-16 flex flex-col justify-center border-b-[0.5px] md:border-b-0 md:border-r-[0.5px] border-brand-wine/20">
-             <span className="text-[10px] tracking-[0.3em] uppercase opacity-50 mb-4 block leading-relaxed">Masterclass Investment</span>
+             <span className="text-sm tracking-[0.3em] uppercase opacity-50 mb-4 block leading-relaxed">Masterclass Investment</span>
              <h2 className="font-serif text-4xl sm:text-5xl mb-4 break-words">₹1,40,000</h2>
-             <p className="text-xs font-light opacity-70 leading-relaxed mb-8 md:mb-10">Includes 7 days of comprehensive training and 1 portfolio shoot.</p>
-             <button className="bg-brand-wine text-white text-xs uppercase tracking-widest py-3 sm:py-4 px-6 sm:px-8 hover:bg-brand-accent transition-colors w-max">Enroll Now</button>
+             <p className="text-base font-light opacity-70 leading-relaxed mb-8 md:mb-10">Includes 7 days of comprehensive training and 1 portfolio shoot.</p>
+             <button className="bg-brand-wine text-white text-sm uppercase tracking-widest py-3 sm:py-4 px-6 sm:px-8 hover:bg-brand-accent transition-colors w-max">Enroll Now</button>
           </div>
           
           <div className="p-8 sm:p-12 md:p-16 flex flex-col justify-center bg-brand-bg/50">
-             <span className="text-[10px] tracking-[0.3em] uppercase opacity-50 mb-4 block leading-relaxed">Optional Add-on</span>
+             <span className="text-sm tracking-[0.3em] uppercase opacity-50 mb-4 block leading-relaxed">Optional Add-on</span>
              <h2 className="font-serif text-4xl sm:text-5xl mb-4 text-brand-accent break-words">₹40,000</h2>
-             <p className="text-xs font-light opacity-70 leading-relaxed">Couture Portfolio building experience. Includes styling, photo/video team, and consultation.</p>
+             <p className="text-base font-light opacity-70 leading-relaxed">Couture Portfolio building experience. Includes styling, photo/video team, and consultation.</p>
           </div>
         </div>
 
         <div className="mt-16 md:mt-20 text-center w-full px-4 break-words">
             <h3 className="font-script text-4xl sm:text-5xl mb-4 text-brand-rose drop-shadow-sm">Contact Us</h3>
-            <p className="text-[10px] sm:text-xs uppercase tracking-widest opacity-60 mb-2 flex items-center justify-center gap-3"><MapPin className="w-3 h-3 shrink-0" /> <span className="truncate">Mumbai, Andheri</span></p>
-            <p className="text-[10px] font-light mt-8 opacity-40 leading-relaxed">Looking for an internship? Contact our team. <br className="sm:hidden" />© {new Date().getFullYear()} UURMI KAURR.</p>
+            <p className="text-sm uppercase tracking-widest opacity-60 mb-2 flex items-center justify-center gap-3"><MapPin className="w-3 h-3 shrink-0" /> <span className="truncate">Mumbai, Andheri</span></p>
+            <p className="text-sm font-light mt-8 opacity-40 leading-relaxed">Looking for an internship? Contact our team. <br className="sm:hidden" />© {new Date().getFullYear()} UURMI KAURR.</p>
         </div>
       </section>
       
