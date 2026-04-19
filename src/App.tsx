@@ -70,7 +70,7 @@ export default function App() {
             
             <div className="space-y-4">
               <p className="flex items-center gap-6 text-xs tracking-[0.2em] uppercase opacity-80"><span className="w-8 md:w-12 h-[1px] bg-brand-wine opacity-50 shrink-0"></span> Be a Visionary</p>
-              <p className="flex items-center gap-6 text-xs tracking-[0.2em] uppercase opacity-80"><span className="w-8 md:w-12 h-[1px] bg-brand-wine opacity-50 shrink-0"></span> Create Your Identity</p>
+              <p className="flex items-center gap-6 text-xs tracking-[0.2em] uppercase opacity-80"><span className="w-8 md:w-12 h-[1px] bg-brand-wine opacity-50 shrink-0"></span> Create Your Own Identity as an artist</p>
               <p className="flex items-center gap-6 text-xs tracking-[0.2em] uppercase opacity-80"><span className="w-8 md:w-12 h-[1px] bg-brand-wine opacity-50 shrink-0"></span> Elevate & Be Polished</p>
             </div>
           </FadeIn>
@@ -119,10 +119,19 @@ export default function App() {
               <FadeIn delay={0.2}>
                 <h3 className="font-serif text-3xl sm:text-4xl mb-6">About Uurmi</h3>
                 <p className="text-base font-light leading-relaxed opacity-80 mb-4">
-                  Born and raised in Mumbai, Uurmi Kaurr is a powerful blend of creativity, passion, and purpose. Beginning her journey at Lowe Lintas, her true calling led her into makeup artistry, evolving from a MAC artist to a celebrated name in bridal and destination weddings.
+                  Born and raised in Mumbai, Uurmi Kaurr is a powerful blend of creativity, passion, and purpose. With an innate eye for aesthetics and a deep love for learning, she has carved a distinctive space for herself in the beauty industry.
+                </p>
+                <p className="text-base font-light leading-relaxed opacity-80 mb-4">
+                  A graduate in Public Relations, she began her journey at Lowe Lintas, working with leading lifestyle and beauty brands. Yet, her true calling led her into makeup artistry, where she started as a MAC artist and evolved into a celebrated name in bridal and destination weddings.
+                </p>
+                <p className="text-base font-light leading-relaxed opacity-80 mb-4">
+                  Beyond her artistry, Uurmi is a passionate educator who has mentored over 600+ students. Known for her exceptional patience and deeply empathetic approach, she creates a nurturing learning environment where every student feels seen, understood, and empowered. She believes in tailoring her teaching to each individual, helping them unlock their unique potential with confidence and clarity.
+                </p>
+                <p className="text-base font-light leading-relaxed opacity-80 mb-4">
+                  Rooted in spirituality and authenticity, Uurmi’s philosophy goes beyond creating beauty—it’s about building genuine connections and enhancing individuality. Her work reflects precision, passion, and a heartfelt commitment to both her clients and students.
                 </p>
                 <p className="text-base font-light leading-relaxed opacity-80">
-                  A passionate educator mentored over 600+ students, her philosophy goes beyond creating beauty—it’s about building genuine connections and enhancing individuality.
+                  With a loyal clientele across India and globally, Uurmi continues to inspire through her artistry, education, and her unwavering belief in staying real, grounded, and spreading positivity.
                 </p>
               </FadeIn>
             </div>
@@ -147,10 +156,10 @@ export default function App() {
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4">
           {[
-            { tag: "(01)", title: "MASTER CRAFT", text: "From basics to absolute brilliance." },
-            { tag: "(02)", title: "ELEVATE SKILLS", text: "Stand out in a competitive beauty market." },
-            { tag: "(03)", title: "BUILD PORTFOLIO", text: "Create a strong, scroll-stopping portfolio." },
-            { tag: "(04)", title: "LEARN DEEPLY", text: "Master content creation simultaneously." }
+            { tag: "(01)", title: "MASTER CRAFT", text: "Master your craft from basics to brilliance." },
+            { tag: "(02)", title: "ELEVATE SKILLS", text: "Elevate your skills and stand out in a competitive market." },
+            { tag: "(03)", title: "BUILD PORTFOLIO", text: "Build a strong, scroll-stopping portfolio." },
+            { tag: "(04)", title: "LEARN DEEPLY", text: "Learn deeply while creating content for your portfolio." }
           ].map((item, i) => (
              <div key={i} className="p-8 md:p-10 border-b-[0.5px] sm:border-b-[0.5px] md:border-b-0 border-r-[0.5px] border-brand-wine/20 relative hover:bg-brand-rose/10 transition-colors">
                 <span className="text-sm font-serif opacity-50 mb-8 block">{item.tag}</span>
@@ -184,10 +193,10 @@ export default function App() {
               {[
                 "Airbrush Makeup Demonstration",
                 "1 Portfolio Shoot",
-                "6 Different Makeup Demonstrations",
-                "3 Hour Daily Practice (Hands-on)",
-                "Social Media & Marketing Class",
-                "Optional 2 Photoshoots on last day"
+                "6 Different Makeup Demonstrations (covering diverse looks & techniques)",
+                "3 Hour Daily Practice Sessions with Uurmi (hands-on learning)",
+                "Social Media & Marketing Class – Learn how to shoot and create your own content",
+                "2 Photoshoots on the last day (Optional – available at an additional cost) 40,000/- Fee"
               ].map((item, i) => (
                 <li key={i} className="flex gap-4 items-start pb-4 border-b-[0.5px] border-brand-wine/10 last:border-0 pr-4">
                   <span className="text-[10px] opacity-40 mt-1 shrink-0">0{i+1}</span>
@@ -203,9 +212,9 @@ export default function App() {
             </h3>
             <ul className="space-y-4 text-base font-light">
                {[
-                  "Full-Day Intensive Practice", "Interactive Q&A", 
-                  "Photoshoot (optional)", "In-depth Product Knowledge", 
-                  "One-on-One with Uurmi", "Certification"
+                  "Full-Day Intensive Practice Session", "Interactive Q&A", 
+                  "Photoshoot ( optional )", "In-depth Product Knowledge", 
+                  "One-on-One Session with Uurmi Kaurr", "Certification"
                 ].map((item, i) => (
                 <li key={i} className="flex gap-4 items-center">
                   <div className="w-1.5 h-1.5 rounded-full border border-brand-wine shrink-0"></div>
@@ -241,12 +250,18 @@ export default function App() {
             </div>
             <div className="lg:col-span-5 p-8 flex flex-col justify-center">
               <h4 className="font-serif text-2xl mb-4">Introduction to Makeup</h4>
-              <p className="text-base font-light opacity-80 mb-4">Online Session via Zoom. 12 PM - 2 PM. Mastering the basics is what sets you apart.</p>
-              <ul className="text-sm font-light opacity-70 space-y-1 list-disc list-inside ml-2">
-                <li>Skin types, prep & hydration</li>
-                <li>Undertones, foundations & concealers</li>
-                <li>Colour theory aesthetics</li>
-                <li>Face & eye shapes analysis</li>
+              <p className="text-base font-light opacity-80 mb-4">Online - on Zoom. 12 to 2 - 2 hours. Introduction to Makeup For beginners, aspiring artists, and working makeup artists who want to strengthen their fundamentals. Because mastering the basics is what sets you apart.</p>
+              <h5 className="font-serif text-lg mb-2">What You Will Learn</h5>
+              <ul className="text-sm font-light opacity-70 space-y-2 ml-2">
+                <li className="flex gap-2"><span>-</span> <span>Understanding skin types & skincare (cleansing, moisturising for different skin types)</span></li>
+                <li className="flex gap-2"><span>-</span> <span>Importance of skin prep for a flawless base</span></li>
+                <li className="flex gap-2"><span>-</span> <span>Understanding different undertones & skin tones</span></li>
+                <li className="flex gap-2"><span>-</span> <span>Understanding different types of foundations, concealers & powders</span></li>
+                <li className="flex gap-2"><span>-</span> <span>Colour theory & colour wheel basics</span></li>
+                <li className="flex gap-2"><span>-</span> <span>Developing a strong sense of colour aesthetics</span></li>
+                <li className="flex gap-2"><span>-</span> <span>Creating a cohesive makeup look using colour theory</span></li>
+                <li className="flex gap-2"><span>-</span> <span>Identifying face shapes & enhancing features with an exercise</span></li>
+                <li className="flex gap-2"><span>-</span> <span>Understanding eye shapes & eye placement techniques</span></li>
               </ul>
             </div>
           </div>
@@ -265,65 +280,133 @@ export default function App() {
               <h4 className="font-serif text-2xl mb-4 text-brand-accent">Look 1</h4>
               <p className="text-base font-light opacity-80 mb-4">Luminous Skin & Soft Sculpt. Skin First. Glam Second. Achieve a dewy base that survives summer heat while looking refined.</p>
               <ul className="text-sm font-light opacity-70 space-y-2 grid grid-cols-1 sm:grid-cols-2 gap-x-4">
-                <li>• Mix liquids & creams</li>
-                <li>• Seamless blending</li>
-                <li>• Soft sculpting</li>
-                <li>• Precision powdering</li>
+                <li className="flex gap-2"><span>•</span> <span>Mixing liquids & creams to create bespoke, skin-like textures</span></li>
+                <li className="flex gap-2"><span>•</span> <span>Mastering seamless blending techniques for smooth natural finish</span></li>
+                <li className="flex gap-2"><span>•</span> <span>Soft contouring & sculpting for natural definition</span></li>
+                <li className="flex gap-2"><span>•</span> <span>Strategic layering: balancing cream + powder without heaviness</span></li>
+                <li className="flex gap-2"><span>•</span> <span>Precision powdering - how much, where, and why</span></li>
+                <li className="flex gap-2"><span>•</span> <span>Micro-powdering techniques for longevity without dullness</span></li>
+                <li className="flex gap-2"><span>•</span> <span>Long-wear luminous skin techniques for humid & summer conditions</span></li>
+                <li className="flex gap-2"><span>•</span> <span>Locking makeup while maintaining natural skin texture</span></li>
+                <li className="flex gap-2"><span>•</span> <span>Balancing shine and structure for both camera & real life</span></li>
               </ul>
             </div>
           </div>
 
-          {/* Day 2-4 Compact */}
-          <div className="grid grid-cols-1 sm:grid-cols-3 divide-y-[0.5px] sm:divide-y-0 sm:divide-x-[0.5px] divide-brand-wine/20">
-             <div className="p-8 sm:p-10 flex flex-col items-center text-center hover:bg-brand-cream transition-colors">
-                <span className="text-xs tracking-[0.2em] opacity-50 mb-4">DAY 2 / 4TH JUNE</span>
-                <h4 className="font-serif text-2xl mb-4">Look 2</h4>
-                <p className="text-base font-light opacity-70">Phone & lighting class with social media content generation.</p>
-             </div>
-             <div className="p-8 sm:p-10 flex flex-col items-center text-center hover:bg-brand-cream transition-colors">
-                <span className="text-xs tracking-[0.2em] opacity-50 mb-4">DAY 3 / 5TH JUNE</span>
-                <h4 className="font-serif text-2xl mb-4">Looks 3 & 4</h4>
-                <p className="text-base font-light opacity-70">Expanding versatility through diverse makeup demonstrations.</p>
-             </div>
-             <div className="p-8 sm:p-10 flex flex-col items-center text-center bg-brand-rose/10 hover:bg-brand-cream transition-colors">
-                <span className="text-xs tracking-[0.2em] opacity-50 mb-4">DAY 4 / 6TH JUNE</span>
-                <h4 className="font-serif text-2xl mb-4">Looks 5 & 6</h4>
-                <p className="text-base font-light opacity-70">Advanced techniques and finalizing the core demonstration looks.</p>
-             </div>
+          {/* Day 2 */}
+          <div className="grid grid-cols-1 lg:grid-cols-12 hover:bg-brand-cream transition-colors duration-500">
+            <div className="lg:col-span-3 p-8 border-r-[0.5px] border-brand-wine/transparent lg:border-brand-wine/20 flex flex-col justify-center border-b-[0.5px] lg:border-b-0 border-brand-wine/20">
+              <span className="text-xs tracking-widest uppercase opacity-50 mb-2">4th June</span>
+              <span className="font-serif text-3xl">Day 2</span>
+            </div>
+            <div className="lg:col-span-9 p-8 flex flex-col justify-center">
+              <h4 className="font-serif text-2xl mb-4 text-brand-accent">Look 2</h4>
+              <p className="text-base font-light opacity-80 mb-4">The Matte Perfection. Perfecting the art of a flawless, long lasting matte base without looking flat or heavy.</p>
+              <ul className="text-sm font-light opacity-70 space-y-2 grid grid-cols-1 sm:grid-cols-2 gap-x-4">
+                <li className="flex gap-2"><span>•</span> <span>Navigating oily / combination skin prep</span></li>
+                <li className="flex gap-2"><span>•</span> <span>Mastering full coverage without cakeyness</span></li>
+                <li className="flex gap-2"><span>•</span> <span>Creating dimension with powder sculpting</span></li>
+                <li className="flex gap-2"><span>•</span> <span>Tear-proof, heat-proof, sweat-proof locking techniques</span></li>
+              </ul>
+              
+              <div className="mt-8 pt-8 border-t-[0.5px] border-brand-wine/20">
+                <h4 className="font-serif text-xl mb-4">Social Media & Business (1 hour)</h4>
+                <ul className="text-sm font-light opacity-70 space-y-2">
+                  <li className="flex gap-2"><span>•</span> <span>Instagram growth & aesthetics - finding your visual identity</span></li>
+                  <li className="flex gap-2"><span>•</span> <span>Lighting & angles - shooting high-quality content on your phone</span></li>
+                  <li className="flex gap-2"><span>•</span> <span>Reel creation & transitioning basics</span></li>
+                  <li className="flex gap-2"><span>•</span> <span>Pricing, client communication & building a premium brand</span></li>
+                </ul>
+              </div>
+            </div>
           </div>
 
-          {/* Day 5 & 6 */}
+          {/* Day 3 */}
+          <div className="grid grid-cols-1 lg:grid-cols-12 bg-brand-rose/5 hover:bg-brand-cream transition-colors duration-500">
+            <div className="lg:col-span-3 p-8 border-r-[0.5px] border-brand-wine/transparent lg:border-brand-wine/20 flex flex-col justify-center border-b-[0.5px] lg:border-b-0 border-brand-wine/20">
+              <span className="text-xs tracking-widest uppercase opacity-50 mb-2">5th June</span>
+              <span className="font-serif text-3xl">Day 3</span>
+            </div>
+            <div className="lg:col-span-9 p-8 flex flex-col justify-center">
+              <h4 className="font-serif text-2xl mb-4 text-brand-accent">Look 3</h4>
+              <p className="text-base font-light opacity-80 mb-4">The Signature Bridal Glam. Classic, timeless Indian bridal makeup that photographs beautifully and lasts 12+ hours.</p>
+              <ul className="text-sm font-light opacity-70 space-y-2 grid grid-cols-1 sm:grid-cols-2 gap-x-4 mb-8">
+                <li className="flex gap-2"><span>•</span> <span>Creating a bulletproof traditional bridal base</span></li>
+                <li className="flex gap-2"><span>•</span> <span>Advanced eye mechanics: working with rich tones & shimmer</span></li>
+                <li className="flex gap-2"><span>•</span> <span>Lash customization & lifting techniques</span></li>
+                <li className="flex gap-2"><span>•</span> <span>Draping & traditional styling basics</span></li>
+              </ul>
+              
+              <h4 className="font-serif text-2xl mb-4 text-brand-accent">Look 4</h4>
+              <p className="text-base font-light opacity-80 mb-4">Focus Look - Mastering the Eyes. Precision detailed eye-work that commands attention.</p>
+              <ul className="text-sm font-light opacity-70 space-y-2 grid grid-cols-1 sm:grid-cols-2 gap-x-4">
+                <li className="flex gap-2"><span>•</span> <span>Advanced blending & transitioning colors</span></li>
+                <li className="flex gap-2"><span>•</span> <span>Cut-crease variations suited for different eye shapes</span></li>
+                <li className="flex gap-2"><span>•</span> <span>Working with pigments, glitters & liquid liners</span></li>
+                <li className="flex gap-2"><span>•</span> <span>Smoked-out lower lash line perfection</span></li>
+              </ul>
+            </div>
+          </div>
+
+          {/* Day 4 */}
+          <div className="grid grid-cols-1 lg:grid-cols-12 hover:bg-brand-cream transition-colors duration-500">
+            <div className="lg:col-span-3 p-8 border-r-[0.5px] border-brand-wine/transparent lg:border-brand-wine/20 flex flex-col justify-center border-b-[0.5px] lg:border-b-0 border-brand-wine/20">
+              <span className="text-xs tracking-widest uppercase opacity-50 mb-2">6th June</span>
+              <span className="font-serif text-3xl">Day 4</span>
+            </div>
+            <div className="lg:col-span-9 p-8 flex flex-col justify-center">
+              <h4 className="font-serif text-2xl mb-4 text-brand-accent">Look 5</h4>
+              <p className="text-base font-light opacity-80 mb-4">Airbrush Mastery. Demystifying the airbrush machine for seamless, porcelain-like skin.</p>
+              <ul className="text-sm font-light opacity-70 space-y-2 grid grid-cols-1 sm:grid-cols-2 gap-x-4 mb-8">
+                <li className="flex gap-2"><span>•</span> <span>Understanding equipment, PSI, and formulas</span></li>
+                <li className="flex gap-2"><span>•</span> <span>Troubleshooting & maintenance</span></li>
+                <li className="flex gap-2"><span>•</span> <span>Application techniques: distance, motion, layering</span></li>
+                <li className="flex gap-2"><span>•</span> <span>Combining traditional makeup with airbrushing</span></li>
+              </ul>
+              
+              <h4 className="font-serif text-2xl mb-4 text-brand-accent">Look 6</h4>
+              <p className="text-base font-light opacity-80 mb-4">The Modern Editorial & Red Carpet Make up.</p>
+              <ul className="text-sm font-light opacity-70 space-y-2 grid grid-cols-1 sm:grid-cols-2 gap-x-4">
+                <li className="flex gap-2"><span>•</span> <span>Playing with textures—glass skin vs velvet matte</span></li>
+                <li className="flex gap-2"><span>•</span> <span>Feline flicks & graphic liner techniques</span></li>
+                <li className="flex gap-2"><span>•</span> <span>The bold lip - precision application and longevity</span></li>
+              </ul>
+            </div>
+          </div>
+
+           {/* Day 5 & 6 */}
            <div className="grid grid-cols-1 lg:grid-cols-12 hover:bg-brand-cream transition-colors duration-500">
             <div className="lg:col-span-3 p-8 border-r-[0.5px] border-brand-wine/transparent lg:border-brand-wine/20 flex flex-col justify-center border-b-[0.5px] lg:border-b-0 border-brand-wine/20">
               <span className="text-xs tracking-widest uppercase opacity-50 mb-2">7th June</span>
               <span className="font-serif text-3xl">Day 5</span>
             </div>
              <div className="lg:col-span-9 p-8 flex flex-col justify-center">
-              <h4 className="font-serif text-2xl sm:text-3xl break-words">Photoshoot & Certification</h4>
+              <h4 className="font-serif text-2xl sm:text-3xl break-words uppercase">1 PHOTOSHOOT DAY & CERTIFICATION</h4>
             </div>
           </div>
 
+          {/* Day 6 */}
           <div className="grid grid-cols-1 lg:grid-cols-12 bg-white hover:bg-brand-cream transition-colors duration-500">
             <div className="lg:col-span-3 p-8 border-r-[0.5px] border-brand-wine/transparent lg:border-brand-wine/20 flex flex-col justify-center border-b-[0.5px] lg:border-b-0 border-brand-wine/20">
               <span className="text-xs tracking-widest uppercase opacity-50 mb-2">8th June</span>
               <span className="font-serif text-3xl">Day 6</span>
             </div>
-             <div className="lg:col-span-4 p-8 border-r-[0.5px] border-brand-wine/20 flex flex-col justify-center border-b-[0.5px] lg:border-b-0 border-brand-wine/20">
-              <h4 className="font-serif text-2xl mb-4">Deep Dive</h4>
-              <p className="text-base font-light opacity-80 mb-6 mt-1">Practice. Create. Shoot. We go deeper so you don't just learn makeup, you become an artist clients trust.</p>
-              <div className="w-full flex justify-center lg:justify-start">
-                <img src={imgClassDive} className="w-1/2 max-w-[200px] lg:w-2/3 lg:max-w-xs aspect-[3/4] object-cover opacity-95 hidden sm:block shadow-lg border-[0.5px] border-brand-wine/20" alt="class session dive" />
+             <div className="lg:col-span-9 p-8 border-r-[0.5px] border-brand-wine/20 flex flex-col justify-center border-b-[0.5px] lg:border-b-0 border-brand-wine/20">
+              <p className="text-base font-light opacity-80 mb-6 mt-1">This time, we’ve gone deeper, so you don’t just learn makeup, you become an artist clients trust and choose. After months of research, conversations with industry experts, and understanding what truly works in today’s market, we’ve built a day focused on what actually drives success in-depth knowledge, refined technique, and real artistry.</p>
+              
+              <div className="flex flex-col sm:flex-row gap-8">
+                 <div className="flex-1 p-6 border-[0.5px] border-brand-wine/20 bg-brand-cream/50">
+                   <h5 className="font-serif text-lg mb-2">Elevate your skills by :-</h5>
+                   <p className="text-sm font-light opacity-80 mb-2">Practice. Create. Shoot.</p>
+                   <p className="text-sm font-light opacity-70">Work on your skills and capture polished beauty shots using techniques taught in class , with team support when needed.</p>
+                 </div>
+                 <div className="flex items-center justify-center font-serif text-xl opacity-60">OR</div>
+                 <div className="flex-1 p-6 border-[0.5px] border-brand-wine/20 bg-brand-rose/10">
+                   <h5 className="font-serif text-lg mb-2 flex items-center">-BUILD YOUR PORTFOLIO (OPTIONAL)-</h5>
+                   <p className="text-sm font-light opacity-80 mb-2">Fee - 40,000/- additional</p>
+                 </div>
               </div>
-            </div>
-             <div className="lg:col-span-5 p-0 flex flex-col sm:flex-row">
-                <div className="flex-1 p-8 border-b-[0.5px] sm:border-b-0 sm:border-r-[0.5px] border-brand-wine/20">
-                   <h5 className="font-serif text-lg mb-2">A: Elevate</h5>
-                   <p className="text-sm font-light opacity-70">Practice skills and capture beauty shots with team support.</p>
-                </div>
-                 <div className="flex-1 p-8 bg-brand-rose/20 relative">
-                   <h5 className="font-serif text-lg mb-2 flex items-center">B: Portfolio <span className="text-[10px] font-sans tracking-widest uppercase ml-2 border border-brand-wine px-1 py-0.5 shrink-0">Opt</span></h5>
-                   <p className="text-sm font-light opacity-80">Build your professional portfolio with guided looks & styling.</p>
-                </div>
+              <p className="mt-8 text-base font-light opacity-80">Either way—you don’t just leave with knowledge, you leave with confidence, clarity, and a stronger identity as an artist.</p>
             </div>
           </div>
         </div>
@@ -339,41 +422,48 @@ export default function App() {
                <h2 className="font-serif text-5xl sm:text-6xl md:text-7xl lg:text-[8rem] uppercase leading-none opacity-90 drop-shadow-lg tracking-tighter mix-blend-screen overflow-hidden">COUTURE</h2>
                <span className="font-script text-4xl sm:text-5xl md:text-[5rem] translate-x-2 sm:translate-x-8 md:translate-x-12 -translate-y-6 md:-translate-y-12 block text-brand-rose drop-shadow-md">Portfolio</span>
                <p className="text-sm md:text-base font-light max-w-lg mt-2 md:mt-8 opacity-90 leading-relaxed border-l-[0.5px] border-white/30 pl-4 md:pl-6">
-                 An optional add-on experience designed for maximum impact. Dedicated to realizing your vision with precision and artistry. 
+                 OPTIONAL PORTFOLIO EXPERIENCE<br/><br/>
+                 For those who wish to build or upgrade their portfolio, we’ve created an optional add-on experience.<br/><br/>
+                 This includes:<br/>
+                 • 2 portfolio shoots<br/>
+                 • Guided look creation aligned with your learning with Uurmi<br/>
+                 • Hands-on support from our team
                </p>
              </div>
              
              <div className="lg:col-span-6 bg-brand-wine/40 backdrop-blur-md p-6 sm:p-10 border-[0.5px] border-white/20">
-               <h3 className="uppercase tracking-[0.2em] text-sm mb-6 md:mb-8 opacity-60">What's Included</h3>
+               <h3 className="uppercase tracking-[0.2em] text-sm mb-6 md:mb-8 opacity-60">WHAT’S INCLUDED (PORTFOLIO ADD-ON)</h3>
                <ul className="space-y-4">
                  {[
-                    "2 Guided Portfolio Shoots", "Sourced Indian Outfits & Jewellery",
-                    "Professional Stylist on board", "Exclusive Consultation with Uurmi",
-                    "Professional Photography & Reel Team", "Location Provided"
+                    "Indian outfits & jewellery sourced for your shoot",
+                    "Professional stylist on board", 
+                    "Exclusive consultation with Uurmi to refine your final looks",
+                    "Professional photography & reel team", 
+                    "Location for the shoot"
                  ].map((t, i) => (
                     <li key={i} className="text-sm font-light opacity-90 flex gap-4"><span className="text-[10px] opacity-40 shrink-0">0{i+1}</span>{t}</li>
                  ))}
                </ul>
-               <p className="mt-6 md:mt-8 text-xs opacity-50 uppercase tracking-widest leading-relaxed border-t-[0.5px] border-white/20 pt-4">Note: Excludes Hair Artist & Model<br/>(Team can assist at cost)</p>
+               <p className="mt-6 md:mt-8 text-xs opacity-50 uppercase tracking-widest leading-relaxed border-t-[0.5px] border-white/20 pt-4">Note this won’t include Hair artist & Model , However the team could help you arrange models & hair artist if you wish</p>
             </div>
              <div className="lg:col-span-6 bg-brand-wine/40 backdrop-blur-md p-6 sm:p-10 border-[0.5px] border-white/20">
-                <h3 className="uppercase tracking-[0.2em] text-sm mb-6 md:mb-8 opacity-60">Deliverables</h3>
+                <h3 className="uppercase tracking-[0.2em] text-sm mb-6 md:mb-8 opacity-60">FINAL DELIVERABLES (PORTFOLIO ADD-ON)</h3>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-8">
                   <div>
                      <h4 className="font-serif text-xl sm:text-2xl mb-2 text-brand-rose">Reels</h4>
-                     <p className="text-sm font-light opacity-80 leading-relaxed">2 Full-Look iPhone Reels optimized for social.</p>
+                     <p className="text-sm font-light opacity-80 leading-relaxed">2 full-look reels (iPhone).</p>
                   </div>
                   <div>
                      <h4 className="font-serif text-xl sm:text-2xl mb-2 text-brand-rose">Instant</h4>
-                     <p className="text-sm font-light opacity-80 leading-relaxed">Unedited content Airdropped same day.</p>
+                     <p className="text-sm font-light opacity-80 leading-relaxed">Unedited content that you could Airdrop on the same day.</p>
                   </div>
                   <div>
                      <h4 className="font-serif text-xl sm:text-2xl mb-2 text-brand-rose">Imagery</h4>
-                     <p className="text-sm font-light opacity-80 leading-relaxed">4-5 pro edited high-quality images per look.</p>
+                     <p className="text-sm font-light opacity-80 leading-relaxed">4–5 high-quality professional images per look.</p>
                   </div>
                    <div>
                      <h4 className="font-serif text-xl sm:text-2xl mb-2 text-brand-rose">Timeline</h4>
-                     <p className="text-sm font-light opacity-80 leading-relaxed">1 Month Turnaround Time for final edits.</p>
+                     <p className="text-sm font-light opacity-80 leading-relaxed">Turnaround time: 1 month.</p>
                   </div>
                 </div>
             </div>
@@ -420,8 +510,12 @@ export default function App() {
         </div>
 
         <div className="mt-16 md:mt-20 text-center w-full px-4 break-words">
-            <h3 className="font-script text-4xl sm:text-5xl mb-4 text-brand-rose drop-shadow-sm">Contact Us</h3>
-            <p className="text-sm uppercase tracking-widest opacity-60 mb-2 flex items-center justify-center gap-3"><MapPin className="w-3 h-3 shrink-0" /> <span className="truncate">Mumbai, Andheri</span></p>
+                <h3 className="font-script text-4xl sm:text-5xl mb-4 text-brand-rose drop-shadow-sm">Contact Us</h3>
+             <p className="text-sm font-light mt-8 opacity-60 leading-relaxed max-w-2xl mx-auto mb-8">
+              For those looking to be a part of the team or explore internship opportunities, please contact the team.
+            </p>
+            <p className="text-sm uppercase tracking-widest opacity-60 flex items-center justify-center gap-3 mb-2"><MapPin className="w-3 h-3 shrink-0" /> <span className="truncate">VENUE: MUMBAI , ANDHERI</span></p>
+             <p className="text-sm font-light mt-4 opacity-40 leading-relaxed mb-4">Fees of the course with 1 photoshoot included :- 1,40,000/-</p>
         </div>
       </section>
       
