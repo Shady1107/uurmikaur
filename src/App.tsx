@@ -65,7 +65,7 @@ export default function App() {
             <div className="relative mb-24 md:mb-20 z-10 w-full md:w-max mt-4">
               <h1 className="font-serif text-6xl md:text-8xl lg:text-[8rem] leading-[0.8] uppercase font-light">7 Days</h1>
               <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-none uppercase font-light mt-4 ml-1 md:ml-2">Pro Makeup</h1>
-              <span className="font-script text-6xl sm:text-7xl md:text-8xl lg:text-[9rem] absolute -bottom-12 md:-bottom-16 left-6 sm:left-auto sm:right-0 md:-right-36 text-brand-rose -rotate-6 mix-blend-multiply opacity-90 drop-shadow-sm pointer-events-none">masterclass</span>
+              <span className="font-script text-[4.25rem] leading-none sm:text-7xl md:text-8xl lg:text-[9rem] absolute -bottom-10 sm:-bottom-12 md:-bottom-16 left-3 sm:left-auto sm:right-0 md:-right-36 text-brand-rose -rotate-6 mix-blend-multiply opacity-90 drop-shadow-sm pointer-events-none whitespace-nowrap">masterclass</span>
             </div>
             
             <div className="space-y-4">
