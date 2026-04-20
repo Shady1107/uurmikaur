@@ -120,7 +120,7 @@ export default function App() {
         </div>
 
         <div className="lg:col-span-6 p-8 sm:p-12 md:p-24 flex flex-col justify-center relative overflow-hidden bg-brand-cream border-brand-wine/20">
-          <img src={imgFloralBg} className="absolute top-0 right-0 w-full md:w-3/4 opacity-15 mix-blend-multiply pointer-events-none translate-x-1/3 -translate-y-1/4 object-cover" alt="floral background" />
+          <img src={imgFloralBg} className="absolute inset-0 w-full h-full opacity-25 mix-blend-multiply pointer-events-none object-cover object-center" alt="floral background" />
           
           <FadeIn>
             <h2 className="font-serif text-[1.6rem] sm:text-[2rem] md:text-[2.5rem] leading-[1.3] relative z-10 pr-4 italic">
