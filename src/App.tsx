@@ -472,9 +472,11 @@ export default function App() {
 
       {/* Slice 6.5: Portfolio Grid Selection */}
       <section className="bg-brand-bg pt-12 md:pt-20 border-t-[0.5px] border-brand-wine/20">
-        <div className="text-center mb-16 relative">
-          <span className="font-script text-6xl md:text-[8rem] text-brand-rose absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-[60%] pointer-events-none drop-shadow-sm mix-blend-multiply opacity-60">Signature</span>
-          <h2 className="font-serif text-4xl md:text-6xl uppercase tracking-widest relative z-10">Couture Looks</h2>
+        <div className="text-center mb-16 md:mb-20 mt-8 md:mt-12 flex justify-center w-full overflow-hidden">
+          <div className="relative w-max inline-block px-4">
+            <span className="font-script text-[3rem] md:text-[7rem] text-brand-rose absolute bottom-[35%] md:bottom-[40%] left-1/2 -translate-x-1/2 pointer-events-none drop-shadow-sm mix-blend-multiply opacity-60 leading-none">Signature</span>
+            <h2 className="font-serif text-[28px] sm:text-4xl md:text-6xl uppercase tracking-widest relative z-10 whitespace-nowrap pt-12 md:pt-16">Couture Looks</h2>
+          </div>
         </div>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-0 border-y-[0.5px] border-brand-wine/20">
           {[imgCouture1, imgCouture2, imgCouture3, imgCouture4, imgCouture5, imgCouture6].map((srcImg, i) => (
