@@ -65,7 +65,7 @@ export default function App() {
             <div className="relative mb-24 md:mb-20 z-10 w-full md:w-max mt-4">
               <h1 className="font-serif text-6xl md:text-8xl lg:text-[8rem] leading-[0.8] uppercase font-light">7 Days</h1>
               <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-none uppercase font-light mt-4 ml-1 md:ml-2">Pro Makeup</h1>
-              <span className="font-script text-[4.25rem] leading-none sm:text-7xl md:text-8xl lg:text-[9rem] absolute -bottom-10 sm:-bottom-12 md:-bottom-16 left-3 sm:left-auto sm:right-0 md:-right-36 text-brand-rose mix-blend-multiply opacity-90 drop-shadow-sm pointer-events-none whitespace-nowrap">masterclass</span>
+              <span className="font-serif italic font-light text-[3rem] leading-none sm:text-6xl md:text-7xl lg:text-[7rem] tracking-wide absolute -bottom-8 sm:-bottom-12 md:-bottom-14 left-3 sm:left-auto sm:right-0 md:-right-24 text-brand-rose mix-blend-multiply opacity-90 drop-shadow-sm pointer-events-none whitespace-nowrap">masterclass</span>
             </div>
             
             <div className="space-y-4">
@@ -78,7 +78,7 @@ export default function App() {
         
         {/* Right Panel - Image */}
         <div className="lg:col-span-7 relative bg-brand-cream lg:p-8 p-6 border-t-[0.5px] border-brand-wine/20 lg:border-t-0 flex flex-col justify-center items-center">
-          <div className="w-full max-w-lg lg:max-w-xl aspect-[3/4] relative overflow-hidden group shadow-2xl">
+          <div className="w-full max-w-lg lg:max-w-xl aspect-square relative overflow-hidden group shadow-2xl">
             <motion.img 
               style={{ y: heroY, scale: 1.15 }}
               src={imgHero} 
