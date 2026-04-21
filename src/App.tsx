@@ -24,7 +24,7 @@ const imgDay2 = '/images/IMG_0378.png';
 const imgDay3 = '/images/IMG_4879.png';
 const imgDay4 = '/images/IMG_5415.png';
 const imgDay5 = '/images/IMG_5994.png';
-const imgDay6 = '/images/IMG_5952.png';
+const imgDay6 = '/images/IMG_5474.png';
 
 // Editorial grid fine lines components
 const Crosshair = ({ className = '' }: { className?: string }) => (
