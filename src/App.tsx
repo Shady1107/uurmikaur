@@ -19,12 +19,12 @@ const imgCouture5 = '/images/uurmikaurr_1776530838850.png';
 const imgCouture6 = '/images/uurmikaurr_1776530811688.png';
 
 const imgDay0 = '/images/IMG_0373.png';
-const imgDay1 = '/images/IMG_0376.png';
-const imgDay2 = '/images/IMG_0378.png';
-const imgDay3 = '/images/IMG_4879.png';
-const imgDay4 = '/images/IMG_5415.png';
-const imgDay5 = '/images/IMG_5994.png';
-const imgDay6 = '/images/IMG_5474.png';
+const imgDay1 = '/images/IMG_5474.png';
+const imgDay2 = '/images/IMG_6465.png';
+const imgDay3 = '/images/IMG_0376.png';
+const imgDay4 = '/images/IMG_0374.png';
+const imgDay5 = '/images/IMG_0378.png';
+const imgDay6 = '/images/IMG_5952.png';
 
 // Editorial grid fine lines components
 const Crosshair = ({ className = '' }: { className?: string }) => (
@@ -346,7 +346,7 @@ export default function App() {
                 <span className="text-xs tracking-widest uppercase opacity-50 mb-2 block">4th June</span>
                 <span className="font-serif text-3xl block">Day 2</span>
               </div>
-              <img src={imgDay2} className="w-full max-w-[250px] aspect-[4/5] object-cover mt-8 opacity-90 shadow-sm" alt="Day 2" />
+              <img src={imgDay2} className="w-full max-w-[250px] aspect-[4/5] object-cover mt-8 opacity-90 shadow-sm scale-[1.2]" alt="Day 2" />
             </div>
             <div className="lg:col-span-9 p-8 flex flex-col justify-center">
               <h4 className="font-serif text-2xl mb-2 text-brand-accent">Look 2</h4>
@@ -585,7 +585,7 @@ export default function App() {
                 <span className="text-xs tracking-widest uppercase opacity-50 mb-2 block">8th June</span>
                 <span className="font-serif text-3xl block">Day 6</span>
               </div>
-              <img src={imgDay6} className="w-full max-w-[250px] aspect-[4/5] object-cover mt-8 opacity-90 shadow-sm" alt="Day 6" />
+              <img src={imgDay6} className="w-full max-w-[250px] aspect-[4/5] object-cover mt-8 opacity-90 shadow-sm scale-[1.2]" alt="Day 6" />
             </div>
              <div className="lg:col-span-9 p-8 border-r-[0.5px] border-brand-wine/20 flex flex-col justify-center border-b-[0.5px] lg:border-b-0 border-brand-wine/20">
               <p className="text-base font-light opacity-80 mb-6 mt-1">This time, we’ve gone deeper, so you don’t just learn makeup, you become an artist clients trust and choose. After months of research, conversations with industry experts, and understanding what truly works in today’s market, we’ve built a day focused on what actually drives success in-depth knowledge, refined technique, and real artistry.</p>
