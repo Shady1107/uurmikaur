@@ -6,12 +6,12 @@ const imgHero = '/images/Uurmi.jpg';
 const imgFloralBg = '/images/makeupbyurmikaur_1776599411503.png';
 const imgFloralInspire = '/images/makeupbyurmikaur_1776599417439.png';
 const imgBeautyService = '/images/uurmikaurr_1776530868942.png';
-const imgSkincarePrep = '/images/uurmikaurr_1776530862673.png';
-const imgSummerGlow = '/images/makeupbyurmikaur_1776599396333.png';
+const imgSkincarePrep = '/images/IMG_5952.JPEG';
+const imgSummerGlow = '/images/IMG_5994.png';
 const imgClassDive = '/images/makeupbyurmikaur_1776599387577.png';
 const imgRoseShadow = '/images/makeupbyurmikaur_1776599391933.png';
 
-const imgCouture1 = '/images/makeupbyurmikaur_1776599422724.png'; // Old hero repurposed here
+const imgCouture1 = '/images/makeupbyurmikaur_1776599422724.png';
 const imgCouture2 = '/images/uurmikaurr_1776530851457.png';
 const imgCouture3 = '/images/uurmikaurr_1776530847000.png';
 const imgCouture4 = '/images/uurmikaurr_1776530843242.png';
@@ -281,15 +281,15 @@ export default function App() {
               <p className="text-base font-light opacity-80 mb-4">Online - on Zoom. 12 to 2 - 2 hours. Introduction to Makeup For beginners, aspiring artists, and working makeup artists who want to strengthen their fundamentals. Because mastering the basics is what sets you apart.</p>
               <h5 className="font-serif text-lg mb-2">What You Will Learn</h5>
               <ul className="text-sm font-light opacity-70 space-y-2 ml-2">
-                <li className="flex gap-2"><span>-</span> <span>Understanding skin types & skincare (cleansing, moisturising for different skin types)</span></li>
-                <li className="flex gap-2"><span>-</span> <span>Importance of skin prep for a flawless base</span></li>
-                <li className="flex gap-2"><span>-</span> <span>Understanding different undertones & skin tones</span></li>
-                <li className="flex gap-2"><span>-</span> <span>Understanding different types of foundations, concealers & powders</span></li>
-                <li className="flex gap-2"><span>-</span> <span>Colour theory & colour wheel basics</span></li>
-                <li className="flex gap-2"><span>-</span> <span>Developing a strong sense of colour aesthetics</span></li>
-                <li className="flex gap-2"><span>-</span> <span>Creating a cohesive makeup look using colour theory</span></li>
-                <li className="flex gap-2"><span>-</span> <span>Identifying face shapes & enhancing features with an exercise</span></li>
-                <li className="flex gap-2"><span>-</span> <span>Understanding eye shapes & eye placement techniques</span></li>
+                <li className="flex gap-2"><span>•</span> <span>Understanding skin types & skincare (cleansing, moisturising for different skin types)</span></li>
+                <li className="flex gap-2"><span>•</span> <span>Importance of skin prep for a flawless base</span></li>
+                <li className="flex gap-2"><span>•</span> <span>Understanding different undertones & skin tones</span></li>
+                <li className="flex gap-2"><span>•</span> <span>Understanding different types of foundations, concealers & powders</span></li>
+                <li className="flex gap-2"><span>•</span> <span>Colour theory & colour wheel basics</span></li>
+                <li className="flex gap-2"><span>•</span> <span>Developing a strong sense of colour aesthetics</span></li>
+                <li className="flex gap-2"><span>•</span> <span>Creating a cohesive makeup look using colour theory</span></li>
+                <li className="flex gap-2"><span>•</span> <span>Identifying face shapes & enhancing features with an exercise</span></li>
+                <li className="flex gap-2"><span>•</span> <span>Understanding eye shapes & eye placement techniques</span></li>
               </ul>
             </div>
           </div>
@@ -355,10 +355,10 @@ export default function App() {
                 <div>
                    <h6 className="text-sm font-medium uppercase tracking-wider mb-2">Signature Eye Liner Techniques (Ethereal Edit)</h6>
                    <ul className="text-sm font-light opacity-80 space-y-1">
-                     <li>- Invisible Lash Line Definition</li>
-                     <li>- Soft Wing Illusion</li>
-                     <li>- Diffused Wing Technique</li>
-                     <li>- Micro Precision Liner</li>
+                     <li>• Invisible Lash Line Definition</li>
+                     <li>• Soft Wing Illusion</li>
+                     <li>• Diffused Wing Technique</li>
+                     <li>• Micro Precision Liner</li>
                      <li>• Lift & Elongate Mapping</li>
                      <li>• Shadow Liner Technique</li>
                      <li>• Layered Liner Method</li>
@@ -421,7 +421,7 @@ export default function App() {
                 <h5 className="font-serif text-lg mb-4 text-brand-accent">TECHNIQUE FOCUS</h5>
                 <ul className="text-sm font-light opacity-80 space-y-4">
                   <li>
-                    <strong className="block mb-1 opacity-90">- Luxury Product Knowledge</strong>
+                    <strong className="block mb-1 opacity-90">• Luxury Product Knowledge</strong>
                     Understanding when and why to use high-end formulas (foundations, creams, powders, illuminators)
                   </li>
                   <li>
@@ -458,7 +458,7 @@ export default function App() {
                 </p>
                 <h5 className="font-serif text-lg mb-4 text-brand-accent">TECHNIQUE FOCUS</h5>
                 <ul className="text-sm font-light opacity-80 space-y-3">
-                  <li><strong className="opacity-90">- Airbrush foundation mastery</strong><br/>→ Seamless, thin layering with a skin-like, long-wear finish</li>
+                  <li><strong className="opacity-90">• Airbrush foundation mastery</strong><br/>→ Seamless, thin layering with a skin-like, long-wear finish</li>
                   <li><strong className="opacity-90">• Airbrush highlighting technique</strong><br/>→ High-shine, diffused glow using the airbrush for a seamless, lit-from-within effect</li>
                   <li><strong className="opacity-90">• Colour placement strategy</strong><br/>→ Bold tones placed with intention for maximum impact</li>
                   <li><strong className="opacity-90">• Metallic blending</strong><br/>→ Smooth diffusion with a clean, polished finish</li>
@@ -487,7 +487,7 @@ export default function App() {
             </div>
             <div className="lg:col-span-9 p-8 flex flex-col justify-center">
               <h4 className="font-serif text-2xl mb-1 text-brand-accent">Look 5</h4>
-              <p className="text-lg font-serif mb-2">The Midnight Luxe <span className="opacity-60 italic font-sans text-base mx-2">or</span> The Modern High-Glam Smoke Edit</p>
+              <p className="text-lg font-serif mb-2">The Midnight Luxe</p>
               <p className="text-base font-light opacity-80 mb-6">
                 Designed for cocktails, receptions, and red carpet moment, this is not just a smokey eye it’s the art of creating a refined, high-glam look that adapts seamlessly to lighting, skin, undertones, and real-life movement.
               </p>
@@ -588,12 +588,12 @@ export default function App() {
               <p className="font-serif text-xl mb-4 text-brand-accent">You can either:</p>
               <div className="flex flex-col sm:flex-row gap-8">
                  <div className="flex-1 p-6 border-[0.5px] border-brand-wine/20 bg-brand-cream/50">
-                   <h5 className="font-serif text-lg mb-2 uppercase tracking-wide">- ELEVATE YOUR SKILLSET</h5>
+                   <h5 className="font-serif text-lg mb-2 uppercase tracking-wide">• ELEVATE YOUR SKILLSET</h5>
                    <p className="text-sm font-light opacity-80 mb-2">(PRACTICE WITH UURMI)</p>
                  </div>
                  <div className="flex items-center justify-center font-serif text-xl opacity-60">OR</div>
                  <div className="flex-1 p-6 border-[0.5px] border-brand-wine/20 bg-brand-rose/10">
-                   <h5 className="font-serif text-lg mb-2 flex items-center uppercase tracking-wide">- BUILD YOUR PORTFOLIO</h5>
+                   <h5 className="font-serif text-lg mb-2 flex items-center uppercase tracking-wide">• BUILD YOUR PORTFOLIO</h5>
                    <p className="text-sm font-light opacity-80 mb-2">(OPTIONAL)<br/>Fee - 40,000/- additional</p>
                  </div>
               </div>
@@ -699,12 +699,9 @@ export default function App() {
           </FadeIn>
           <FadeIn delay={0.2}>
             <h3 className="font-serif text-2xl md:text-3xl mb-6 text-brand-accent">Booking & Payment Details</h3>
-            <p className="text-base font-light opacity-80 leading-relaxed mb-4">
+            <p className="text-base font-light opacity-80 leading-relaxed">
               An advance payment of <strong>₹40,000/-</strong> is required to secure your seat.<br/>
               Please note, this amount is <span className="underline decoration-brand-wine/30 underline-offset-4">non-refundable, non-transferable</span>.
-            </p>
-            <p className="text-base font-light opacity-80 leading-relaxed">
-              Seats will be allotted on a first-come, first-served basis, as we intentionally keep our batches limited and intimate to ensure personalised attention and a high-quality learning experience.
             </p>
           </FadeIn>
         </div>
@@ -716,7 +713,8 @@ export default function App() {
           <div className="p-8 sm:p-12 md:p-16 flex flex-col justify-center border-b-[0.5px] md:border-b-0 md:border-r-[0.5px] border-brand-wine/20">
              <span className="text-sm tracking-[0.3em] uppercase opacity-50 mb-4 block leading-relaxed">Course Fee</span>
              <h2 className="font-serif text-4xl sm:text-5xl mb-4 break-words">₹1,40,000/-</h2>
-             <p className="text-base font-light opacity-70 leading-relaxed mb-8 md:mb-10">Includes 7 days of comprehensive training and 1 portfolio shoot.</p>
+             <p className="text-base font-light opacity-70 leading-relaxed mb-4">Includes 7 days of comprehensive training and 1 portfolio shoot.</p>
+             <p className="text-sm font-light opacity-60 leading-relaxed italic border-t-[0.5px] border-brand-wine/10 pt-4 mt-auto">Seats will be allotted on a first-come, first-served basis, as we intentionally keep our batches limited and intimate to ensure personalised attention and a high-quality learning experience.</p>
           </div>
           
           <div className="p-8 sm:p-12 md:p-16 flex flex-col justify-center bg-brand-bg md:bg-brand-cream/30">
