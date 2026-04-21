@@ -80,7 +80,7 @@ export default function App() {
         <div className="lg:col-span-7 relative bg-brand-cream lg:p-8 p-6 border-t-[0.5px] border-brand-wine/20 lg:border-t-0 flex flex-col justify-center items-center">
           <div className="w-full max-w-lg lg:max-w-xl aspect-square relative overflow-hidden group shadow-2xl">
             <motion.img 
-              style={{ y: heroY, scale: 1.15 }}
+              style={{ y: heroY, scale: 1 }}
               src={imgHero} 
               className="absolute inset-0 w-full h-full object-cover saturate-[1.1] contrast-[1.1] opacity-95"
               alt="Editorial Makeup"
