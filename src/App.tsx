@@ -20,7 +20,7 @@ const imgCouture6 = '/images/uurmikaurr_1776530811688.png';
 
 const imgDay0 = '/images/IMG_0373.png';
 const imgDay1 = '/images/IMG_5474.png';
-const imgDay2 = '/images/IMG_6464.jpeg';
+const imgDay2 = '/images/IMG_6464.png';
 const imgDay3 = '/images/IMG_0376.png';
 const imgDay4 = '/images/IMG_0374.png';
 const imgDay5 = '/images/IMG_0378.png';
@@ -347,7 +347,7 @@ export default function App() {
                 <span className="font-serif text-3xl block">Day 2</span>
               </div>
               <div className="w-full max-w-[250px] aspect-[4/5] mt-8 overflow-hidden rounded-sm shadow-sm bg-brand-wine/5">
-                <img src={imgDay2} className="w-full h-full object-cover opacity-90 scale-[1.2]" alt="Day 2" />
+                <img src={imgDay2} className="w-full h-full object-cover opacity-90" alt="Day 2" />
               </div>
             </div>
             <div className="lg:col-span-9 p-8 flex flex-col justify-center">
