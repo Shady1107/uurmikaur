@@ -19,12 +19,12 @@ const imgCouture5 = '/images/uurmikaurr_1776530838850.png';
 const imgCouture6 = '/images/uurmikaurr_1776530811688.png';
 
 const imgDay0 = '/images/IMG_0373.png';
-const imgDay1 = '/images/IMG_5474.png';
-const imgDay2 = '/images/IMG_6464.png';
-const imgDay3 = '/images/IMG_0376.png';
-const imgDay4 = '/images/IMG_0374.png';
-const imgDay5 = '/images/IMG_0378.png';
-const imgDay6 = '/images/IMG_5952.png';
+const imgDay1 = '/images/1.png';
+const imgDay2 = '/images/2.png';
+const imgDay3 = '/images/3.png';
+const imgDay4 = '/images/4.png';
+const imgDay5 = '/images/5.png';
+const imgDay6 = '/images/6.png';
 
 // Editorial grid fine lines components
 const Crosshair = ({ className = '' }: { className?: string }) => (
@@ -310,7 +310,7 @@ export default function App() {
                 <span className="font-serif text-3xl block">Day 1</span>
                 <span className="text-xs uppercase opacity-40 mt-1 tracking-widest block">1st Day of OFFLINE CLASS</span>
               </div>
-              <img src={imgDay1} className="w-full max-w-[250px] aspect-[4/5] object-cover mt-8 opacity-90 shadow-sm" alt="Day 1" />
+              <img src={imgDay1} className="w-[calc(100%+4rem)] -mx-8 max-w-none lg:w-full lg:mx-0 lg:max-w-[250px] aspect-[4/5] object-cover mt-8 opacity-90 shadow-sm" alt="Day 1" />
             </div>
              <div className="lg:col-span-4 p-8 border-r-[0.5px] border-brand-wine/20 hidden lg:flex flex-col justify-center gap-8 items-center text-center">
                <h3 className="font-serif text-4xl text-brand-rose leading-tight">The Summer<br/>Edit Glow</h3>
@@ -346,7 +346,7 @@ export default function App() {
                 <span className="text-xs tracking-widest uppercase opacity-50 mb-2 block">4th June</span>
                 <span className="font-serif text-3xl block">Day 2</span>
               </div>
-              <div className="w-full max-w-[250px] aspect-[4/5] mt-8 overflow-hidden rounded-sm shadow-sm bg-brand-wine/5">
+              <div className="w-[calc(100%+4rem)] -mx-8 max-w-none lg:w-full lg:mx-0 lg:max-w-[250px] aspect-[4/5] mt-8 overflow-hidden lg:rounded-sm shadow-sm bg-brand-wine/5">
                 <img src={imgDay2} className="w-full h-full object-cover opacity-90" alt="Day 2" />
               </div>
             </div>
@@ -417,7 +417,7 @@ export default function App() {
                 <span className="text-xs tracking-widest uppercase opacity-50 mb-2 block">5th June</span>
                 <span className="font-serif text-3xl block">Day 3</span>
               </div>
-              <img src={imgDay3} className="w-full max-w-[250px] aspect-[4/5] object-cover mt-8 opacity-90 shadow-sm" alt="Day 3" />
+              <img src={imgDay3} className="w-[calc(100%+4rem)] -mx-8 max-w-none lg:w-full lg:mx-0 lg:max-w-[250px] aspect-[4/5] object-cover mt-8 opacity-90 shadow-sm" alt="Day 3" />
             </div>
             <div className="lg:col-span-9 p-8 flex flex-col justify-center">
               
@@ -493,7 +493,7 @@ export default function App() {
                 <span className="text-xs tracking-widest uppercase opacity-50 mb-2 block">6th June</span>
                 <span className="font-serif text-3xl block">Day 4</span>
               </div>
-              <img src={imgDay4} className="w-full max-w-[250px] aspect-[4/5] object-cover mt-8 opacity-90 shadow-sm" alt="Day 4" />
+              <img src={imgDay4} className="w-[calc(100%+4rem)] -mx-8 max-w-none lg:w-full lg:mx-0 lg:max-w-[250px] aspect-[4/5] object-cover mt-8 opacity-90 shadow-sm" alt="Day 4" />
             </div>
             <div className="lg:col-span-9 p-8 flex flex-col justify-center">
               <h4 className="font-serif text-2xl mb-1 text-brand-accent">Look 5</h4>
@@ -528,7 +528,7 @@ export default function App() {
                 <span className="text-xs tracking-widest uppercase opacity-50 mb-2 block">7th June</span>
                 <span className="font-serif text-3xl block">Day 5</span>
               </div>
-              <img src={imgDay5} className="w-full max-w-[250px] aspect-[4/5] object-cover mt-8 opacity-90 shadow-sm" alt="Day 5" />
+              <img src={imgDay5} className="w-[calc(100%+4rem)] -mx-8 max-w-none lg:w-full lg:mx-0 lg:max-w-[250px] aspect-[4/5] object-cover mt-8 opacity-90 shadow-sm" alt="Day 5" />
             </div>
              <div className="lg:col-span-9 p-8 flex flex-col justify-center">
               <h4 className="font-serif text-2xl sm:text-3xl break-words uppercase mb-4 text-brand-accent">1 PHOTOSHOOT DAY | Q&A | CERTIFICATION</h4>
@@ -587,8 +587,8 @@ export default function App() {
                 <span className="text-xs tracking-widest uppercase opacity-50 mb-2 block">8th June</span>
                 <span className="font-serif text-3xl block">Day 6</span>
               </div>
-              <div className="w-full max-w-[250px] aspect-[4/5] mt-8 overflow-hidden rounded-sm shadow-sm bg-brand-wine/5">
-                <img src={imgDay6} className="w-full h-full object-cover opacity-90 scale-[1.2]" alt="Day 6" />
+              <div className="w-[calc(100%+4rem)] -mx-8 max-w-none lg:w-full lg:mx-0 lg:max-w-[250px] aspect-[4/5] mt-8 overflow-hidden lg:rounded-sm shadow-sm bg-brand-wine/5">
+                <img src={imgDay6} className="w-full h-full object-cover opacity-90" alt="Day 6" />
               </div>
             </div>
              <div className="lg:col-span-9 p-8 border-r-[0.5px] border-brand-wine/20 flex flex-col justify-center border-b-[0.5px] lg:border-b-0 border-brand-wine/20">
