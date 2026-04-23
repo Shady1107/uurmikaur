@@ -234,7 +234,7 @@ export default function App() {
                  <p className="opacity-70">• Online Class (Optional)</p>
                </div>
                <div>
-                 <p className="font-medium opacity-90 uppercase tracking-wider mb-2">3rd & 6th June – Look Demos & Practice Sessions</p>
+                 <p className="font-medium opacity-90 uppercase tracking-wider mb-2">3rd to 6th June – Look Demos & Practice Sessions</p>
                  <ul className="opacity-70 space-y-1">
                    <li>• Signature Look Demonstrations</li>
                    <li>• Hands-on Practice Sessions</li>
