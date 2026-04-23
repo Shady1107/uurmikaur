@@ -2,7 +2,7 @@ import React from 'react';
 import { motion, useScroll, useTransform } from 'motion/react';
 import { MapPin } from 'lucide-react';
 
-const imgHero = '/images/Uurmi.jpg';
+const imgHero = '/images/IMG_0910.JPG';
 const imgFloralBg = '/images/makeupbyurmikaur_1776599411503.png';
 const imgFloralInspire = '/images/makeupbyurmikaur_1776599417439.png';
 const imgBeautyService = '/images/uurmikaurr_1776530868942.png';
@@ -18,7 +18,7 @@ const imgCouture4 = '/images/uurmikaurr_1776530843242.png';
 const imgCouture5 = '/images/uurmikaurr_1776530838850.png';
 const imgCouture6 = '/images/uurmikaurr_1776530811688.png';
 
-const imgDay0 = '/images/IMG_0373.png';
+const imgDay0 = '/images/Uurmi.jpg';
 const imgDay1 = '/images/1.png';
 const imgDay2 = '/images/2.png';
 const imgDay3 = '/images/3.png';
@@ -270,12 +270,15 @@ export default function App() {
         </div>
         
         <div className="divide-y-[0.5px] divide-brand-wine/20 w-full max-w-[100vw]">
-          {/* Day 0 */}
+          {/* Day 1 */}
           <div className="grid grid-cols-1 lg:grid-cols-12 hover:bg-brand-cream transition-colors duration-500">
-            <div className="lg:col-span-3 p-8 border-r-[0.5px] border-brand-wine/transparent lg:border-brand-wine/20 flex flex-col justify-center border-b-[0.5px] lg:border-b-0 border-brand-wine/20">
-              <span className="text-xs tracking-widest uppercase opacity-50 mb-2">1st June</span>
-              <span className="font-serif text-3xl">Day 0</span>
-              <span className="text-sm font-script mt-2 text-brand-accent">Optional</span>
+            <div className="lg:col-span-3 p-8 border-r-[0.5px] border-brand-wine/transparent lg:border-brand-wine/20 flex flex-col justify-start border-b-[0.5px] lg:border-b-0 border-brand-wine/20">
+              <div>
+                <span className="text-xs tracking-widest uppercase opacity-50 mb-2 block">1st June</span>
+                <span className="font-serif text-3xl block">Day 1</span>
+                <span className="text-sm font-script mt-2 text-brand-accent block">Optional</span>
+              </div>
+              <img src={imgDay0} className="w-[calc(100%+4rem)] -mx-8 max-w-none lg:w-full lg:mx-0 lg:max-w-[250px] aspect-[4/5] object-cover mt-8 opacity-90 shadow-sm" alt="Day 1" />
             </div>
             <div className="lg:col-span-4 p-8 border-r-[0.5px] border-brand-wine/20 hidden lg:flex items-center justify-center">
                <img 
@@ -302,12 +305,12 @@ export default function App() {
             </div>
           </div>
 
-          {/* Day 1 */}
+          {/* Day 2 */}
           <div className="grid grid-cols-1 lg:grid-cols-12 hover:bg-brand-cream transition-colors duration-500">
             <div className="lg:col-span-3 p-8 border-r-[0.5px] border-brand-wine/transparent lg:border-brand-wine/20 flex flex-col justify-start border-b-[0.5px] lg:border-b-0 border-brand-wine/20">
               <div>
                 <span className="text-xs tracking-widest uppercase opacity-50 mb-2 block">3rd June</span>
-                <span className="font-serif text-3xl block">Day 1</span>
+                <span className="font-serif text-3xl block">Day 2</span>
                 <span className="text-xs uppercase opacity-40 mt-1 tracking-widest block">1st Day of OFFLINE CLASS</span>
               </div>
               <img src={imgDay1} className="w-[calc(100%+4rem)] -mx-8 max-w-none lg:w-full lg:mx-0 lg:max-w-[250px] aspect-[4/5] object-cover mt-8 opacity-90 shadow-sm" alt="Day 1" />
@@ -339,12 +342,12 @@ export default function App() {
             </div>
           </div>
 
-          {/* Day 2 */}
+          {/* Day 3 */}
           <div className="grid grid-cols-1 lg:grid-cols-12 hover:bg-brand-cream transition-colors duration-500">
             <div className="lg:col-span-3 p-8 border-r-[0.5px] border-brand-wine/transparent lg:border-brand-wine/20 flex flex-col justify-start border-b-[0.5px] lg:border-b-0 border-brand-wine/20">
               <div>
                 <span className="text-xs tracking-widest uppercase opacity-50 mb-2 block">4th June</span>
-                <span className="font-serif text-3xl block">Day 2</span>
+                <span className="font-serif text-3xl block">Day 3</span>
               </div>
               <div className="w-[calc(100%+4rem)] -mx-8 max-w-none lg:w-full lg:mx-0 lg:max-w-[250px] aspect-[4/5] mt-8 overflow-hidden lg:rounded-sm shadow-sm bg-brand-wine/5">
                 <img src={imgDay2} className="w-full h-full object-cover opacity-90" alt="Day 2" />
@@ -410,12 +413,12 @@ export default function App() {
             </div>
           </div>
 
-          {/* Day 3 */}
+          {/* Day 4 */}
           <div className="grid grid-cols-1 lg:grid-cols-12 bg-brand-rose/5 hover:bg-brand-cream transition-colors duration-500">
             <div className="lg:col-span-3 p-8 border-r-[0.5px] border-brand-wine/transparent lg:border-brand-wine/20 flex flex-col justify-start border-b-[0.5px] lg:border-b-0 border-brand-wine/20">
               <div>
                 <span className="text-xs tracking-widest uppercase opacity-50 mb-2 block">5th June</span>
-                <span className="font-serif text-3xl block">Day 3</span>
+                <span className="font-serif text-3xl block">Day 4</span>
               </div>
               <img src={imgDay3} className="w-[calc(100%+4rem)] -mx-8 max-w-none lg:w-full lg:mx-0 lg:max-w-[250px] aspect-[4/5] object-cover mt-8 opacity-90 shadow-sm" alt="Day 3" />
             </div>
@@ -486,12 +489,12 @@ export default function App() {
             </div>
           </div>
 
-          {/* Day 4 */}
+          {/* Day 5 */}
           <div className="grid grid-cols-1 lg:grid-cols-12 hover:bg-brand-cream transition-colors duration-500">
             <div className="lg:col-span-3 p-8 border-r-[0.5px] border-brand-wine/transparent lg:border-brand-wine/20 flex flex-col justify-start border-b-[0.5px] lg:border-b-0 border-brand-wine/20">
               <div>
                 <span className="text-xs tracking-widest uppercase opacity-50 mb-2 block">6th June</span>
-                <span className="font-serif text-3xl block">Day 4</span>
+                <span className="font-serif text-3xl block">Day 5</span>
               </div>
               <img src={imgDay4} className="w-[calc(100%+4rem)] -mx-8 max-w-none lg:w-full lg:mx-0 lg:max-w-[250px] aspect-[4/5] object-cover mt-8 opacity-90 shadow-sm" alt="Day 4" />
             </div>
@@ -521,12 +524,12 @@ export default function App() {
             </div>
           </div>
 
-           {/* Day 5 */}
+           {/* Day 6 */}
            <div className="grid grid-cols-1 lg:grid-cols-12 hover:bg-brand-cream transition-colors duration-500">
             <div className="lg:col-span-3 p-8 border-r-[0.5px] border-brand-wine/transparent lg:border-brand-wine/20 flex flex-col justify-start border-b-[0.5px] lg:border-b-0 border-brand-wine/20">
               <div>
                 <span className="text-xs tracking-widest uppercase opacity-50 mb-2 block">7th June</span>
-                <span className="font-serif text-3xl block">Day 5</span>
+                <span className="font-serif text-3xl block">Day 6</span>
               </div>
               <img src={imgDay5} className="w-[calc(100%+4rem)] -mx-8 max-w-none lg:w-full lg:mx-0 lg:max-w-[250px] aspect-[4/5] object-cover mt-8 opacity-90 shadow-sm" alt="Day 5" />
             </div>
@@ -571,21 +574,16 @@ export default function App() {
                   <h5 className="font-serif text-xl mb-2 flex items-center">• Personal Feedback Session</h5>
                   <p className="text-sm font-light opacity-80">Get constructive, one-on-one insights on your work, technique, and overall growth as an artist.</p>
                 </div>
-
-                <div>
-                  <h5 className="font-serif text-xl mb-2 flex items-center">• Certification Ceremony</h5>
-                  <p className="text-sm font-light opacity-80">Receive your official certification upon successful completion, marking your elevation as a refined and industry-ready makeup artist.</p>
-                </div>
               </div>
             </div>
           </div>
 
-          {/* Day 6 */}
+          {/* Day 7 */}
           <div className="grid grid-cols-1 lg:grid-cols-12 bg-white hover:bg-brand-cream transition-colors duration-500">
             <div className="lg:col-span-3 p-8 border-r-[0.5px] border-brand-wine/transparent lg:border-brand-wine/20 flex flex-col justify-start border-b-[0.5px] lg:border-b-0 border-brand-wine/20">
               <div>
                 <span className="text-xs tracking-widest uppercase opacity-50 mb-2 block">8th June</span>
-                <span className="font-serif text-3xl block">Day 6</span>
+                <span className="font-serif text-3xl block">Day 7</span>
               </div>
               <div className="w-[calc(100%+4rem)] -mx-8 max-w-none lg:w-full lg:mx-0 lg:max-w-[250px] aspect-[4/5] mt-8 overflow-hidden lg:rounded-sm shadow-sm bg-brand-wine/5">
                 <img src={imgDay6} className="w-full h-full object-cover opacity-90" alt="Day 6" />
