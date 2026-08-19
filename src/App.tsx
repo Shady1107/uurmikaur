@@ -71,7 +71,7 @@ export default function App() {
           <FadeIn>
             <p className="uppercase tracking-[0.35em] text-xs mb-12 opacity-70">An Empowering Journey</p>
             <div className="relative mb-24 md:mb-20 z-10 w-full md:w-max mt-4">
-              <h1 className="font-serif text-6xl md:text-8xl lg:text-[8rem] leading-[0.8] uppercase font-light">7 Days</h1>
+              <h1 className="font-serif text-6xl md:text-8xl lg:text-[8rem] leading-[0.8] uppercase font-light">6 Days</h1>
               <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-none uppercase font-light mt-4 ml-1 md:ml-2">Pro Makeup</h1>
               <span className="font-serif italic font-light text-[3rem] leading-none sm:text-6xl md:text-7xl lg:text-[7rem] tracking-wide absolute -bottom-8 sm:-bottom-12 md:-bottom-14 left-3 sm:left-auto sm:right-0 md:-right-24 text-brand-rose mix-blend-multiply opacity-90 drop-shadow-sm pointer-events-none whitespace-nowrap">masterclass</span>
             </div>
@@ -171,11 +171,11 @@ export default function App() {
               </li>
               <li className="flex gap-4 items-start pb-4 border-b-[0.5px] border-brand-wine/10 pr-4">
                 <span className="text-[10px] opacity-40 mt-1 shrink-0">03</span>
-                <span><strong className="font-medium opacity-90 block">5 Signature Makeup Demonstrations</strong><span className="opacity-70 block mt-1">(Covering diverse looks, techniques & real-client scenarios)</span></span>
+                <span><strong className="font-medium opacity-90 block">7 Signature Makeup Demonstrations</strong><span className="opacity-70 block mt-1">(Covering diverse looks, mature skin, male skin, dusky & acne prone skin & real client scenarios)</span></span>
               </li>
               <li className="flex gap-4 items-start pb-4 border-b-[0.5px] border-brand-wine/10 pr-4">
                 <span className="text-[10px] opacity-40 mt-1 shrink-0">04</span>
-                <span><strong className="font-medium opacity-90 block">3.5 Hour Daily Practice Sessions with Uurmi</strong><span className="opacity-70 block mt-1">(Intensive hands-on learning & guided application)</span></span>
+                <span><strong className="font-medium opacity-90 block">3.5 Hour Daily Practice Sessions with Uurmi Kaurr</strong><span className="opacity-70 block mt-1">(Intensive hands on learning & guided application)</span></span>
               </li>
               <li className="flex gap-4 items-start pb-4 border-b-[0.5px] border-brand-wine/10 pr-4">
                 <span className="text-[10px] opacity-40 mt-1 shrink-0">05</span>
@@ -183,11 +183,11 @@ export default function App() {
               </li>
               <li className="flex gap-4 items-start pb-4 border-b-[0.5px] border-brand-wine/10 pr-4">
                 <span className="text-[10px] opacity-40 mt-1 shrink-0">06</span>
-                <span><strong className="font-medium opacity-90 block">2 Photoshoots (Optional)</strong><span className="opacity-70 block mt-1">Available at an additional cost of ₹40,000 on Day 6th</span></span>
+                <span><strong className="font-medium opacity-90 block">Photoshoots</strong><span className="opacity-70 block mt-1">1 Photoshoot included in the fee<br/>2 more Photoshoot Available at an additional cost of ₹40,000 on Day 6th</span></span>
               </li>
               <li className="flex gap-4 items-start pb-4 border-b-[0.5px] border-brand-wine/10 pr-4">
                 <span className="text-[10px] opacity-40 mt-1 shrink-0">07</span>
-                <span><strong className="font-medium opacity-90 block">Day 6 – Full Day</strong><span className="opacity-70 block mt-1">Focused on practice, doubt-solving & technique refinement</span></span>
+                <span><strong className="font-medium opacity-90 block">Day 6</strong><span className="opacity-70 block mt-1">Focused on Photoshoot, doubt-solving & technique refinement & certification .</span></span>
               </li>
             </ul>
 
@@ -210,7 +210,7 @@ export default function App() {
             </h3>
             <ul className="space-y-4 text-base font-light">
                {[
-                  "Full-Day Intensive Practice Session",
+                  "Full-Day Intensive Practice Session/ Photoshoot",
                   "Interactive Q&A", 
                   "In-depth Product Knowledge", 
                   "One-on-One Session with Uurmi Kaurr", 
@@ -230,11 +230,14 @@ export default function App() {
              
              <div className="space-y-8 text-sm font-light">
                <div>
-                 <p className="font-medium opacity-90 uppercase tracking-wider mb-2">1st June – Basics of Makeup</p>
-                 <p className="opacity-70">• Online Class (Optional)</p>
+                 <p className="font-medium opacity-90 uppercase tracking-wider mb-2">30th September – Basics of Makeup</p>
+                 <p className="opacity-70">• Online class & Social Media class</p>
                </div>
                <div>
-                 <p className="font-medium opacity-90 uppercase tracking-wider mb-2">3rd to 6th June – Look Demos & Practice Sessions</p>
+                 <p className="font-medium opacity-90 uppercase tracking-wider mb-2">1st October – Holiday</p>
+               </div>
+               <div>
+                 <p className="font-medium opacity-90 uppercase tracking-wider mb-2">2nd October - 6th October – Look Demos & Practice Sessions</p>
                  <ul className="opacity-70 space-y-1">
                    <li>• Signature Look Demonstrations</li>
                    <li>• Hands-on Practice Sessions</li>
@@ -243,18 +246,12 @@ export default function App() {
                  </ul>
                </div>
                <div>
-                 <p className="font-medium opacity-90 uppercase tracking-wider mb-2">7th June – Photoshoot Day</p>
+                 <p className="font-medium opacity-90 uppercase tracking-wider mb-2">6th October – Photoshoot Day</p>
                  <ul className="opacity-70 space-y-2">
                    <li>• 1 Portfolio Photoshoot</li>
+                   <li>• 2 optional with additional fee</li>
                    <li>• Certification</li>
-                   <li>• Personal Feedback <span className="opacity-60 italic text-xs block mt-0.5">(Strengths & Weakness Analysis of Each Student)</span></li>
-                 </ul>
-               </div>
-               <div>
-                 <p className="font-medium opacity-90 uppercase tracking-wider mb-2">8th June – Practice + Optional Shoot</p>
-                 <ul className="opacity-70 space-y-1">
-                   <li>• Practice Session</li>
-                   <li>• 2 Photoshoots (Optional)</li>
+                   <li>• Personal Feedback</li>
                  </ul>
                </div>
              </div>
@@ -274,9 +271,9 @@ export default function App() {
           <div className="grid grid-cols-1 lg:grid-cols-12 hover:bg-brand-cream transition-colors duration-500">
             <div className="lg:col-span-3 p-8 border-r-[0.5px] border-brand-wine/transparent lg:border-brand-wine/20 flex flex-col justify-start border-b-[0.5px] lg:border-b-0 border-brand-wine/20">
               <div>
-                <span className="text-xs tracking-widest uppercase opacity-50 mb-2 block">1st June</span>
+                <span className="text-xs tracking-widest uppercase opacity-50 mb-2 block">30th September</span>
                 <span className="font-serif text-3xl block">Day 1</span>
-                <span className="text-sm font-script mt-2 text-brand-accent block">Optional</span>
+                <span className="text-sm font-script mt-2 text-brand-accent block">Online</span>
               </div>
               <img src={imgDay0} className="w-[calc(100%+4rem)] -mx-8 max-w-none lg:w-full lg:mx-0 lg:max-w-[250px] aspect-[4/5] object-cover mt-8 opacity-90 shadow-sm" alt="Day 1" />
             </div>
@@ -309,9 +306,9 @@ export default function App() {
           <div className="grid grid-cols-1 lg:grid-cols-12 hover:bg-brand-cream transition-colors duration-500">
             <div className="lg:col-span-3 p-8 border-r-[0.5px] border-brand-wine/transparent lg:border-brand-wine/20 flex flex-col justify-start border-b-[0.5px] lg:border-b-0 border-brand-wine/20">
               <div>
-                <span className="text-xs tracking-widest uppercase opacity-50 mb-2 block">3rd June</span>
+                <span className="text-xs tracking-widest uppercase opacity-50 mb-2 block">2nd October</span>
                 <span className="font-serif text-3xl block">Day 2</span>
-                <span className="text-xs uppercase opacity-40 mt-1 tracking-widest block">1st Day of OFFLINE CLASS</span>
+                <span className="text-xs uppercase opacity-40 mt-1 tracking-widest block">1ST DAY OF OFFLINE CLASS</span>
               </div>
               <img src={imgDay1} className="w-[calc(100%+4rem)] -mx-8 max-w-none lg:w-full lg:mx-0 lg:max-w-[250px] aspect-[4/5] object-cover mt-8 opacity-90 shadow-sm" alt="Day 1" />
             </div>
@@ -346,7 +343,7 @@ export default function App() {
           <div className="grid grid-cols-1 lg:grid-cols-12 hover:bg-brand-cream transition-colors duration-500">
             <div className="lg:col-span-3 p-8 border-r-[0.5px] border-brand-wine/transparent lg:border-brand-wine/20 flex flex-col justify-start border-b-[0.5px] lg:border-b-0 border-brand-wine/20">
               <div>
-                <span className="text-xs tracking-widest uppercase opacity-50 mb-2 block">4th June</span>
+                <span className="text-xs tracking-widest uppercase opacity-50 mb-2 block">3rd October</span>
                 <span className="font-serif text-3xl block">Day 3</span>
               </div>
               <div className="w-[calc(100%+4rem)] -mx-8 max-w-none lg:w-full lg:mx-0 lg:max-w-[250px] aspect-[4/5] mt-8 overflow-hidden lg:rounded-sm shadow-sm bg-brand-wine/5">
@@ -395,21 +392,6 @@ export default function App() {
                    </ul>
                 </div>
               </div>
-              
-              <div className="mt-4 p-6 bg-brand-rose/5 border-[0.5px] border-brand-wine/20">
-                <h4 className="font-serif text-xl mb-4 text-brand-accent">SOCIAL MEDIA & BRAND BUILDING MODULE</h4>
-                <ul className="text-sm font-light opacity-80 space-y-2">
-                  <li className="flex gap-2"><span>•</span> <span>Understanding organic growth – what truly works today</span></li>
-                  <li className="flex gap-2"><span>•</span> <span>Creating content with intention (not just posting randomly)</span></li>
-                  <li className="flex gap-2"><span>•</span> <span>How to shoot high-quality photos & videos using your phone or camera</span></li>
-                  <li className="flex gap-2"><span>•</span> <span>Understanding angles that flatter makeup (face-focused shooting)</span></li>
-                  <li className="flex gap-2"><span>•</span> <span>Capturing skin texture, glow & true-to-life colours on camera</span></li>
-                  <li className="flex gap-2"><span>•</span> <span>Learning how to position yourself in the industry</span></li>
-                  <li className="flex gap-2"><span>•</span> <span>One-on-one feedback on your Instagram to help refine your identity as an artist</span></li>
-                  <li className="flex gap-2"><span>•</span> <span>Understanding lighting and how to use it effectively for your content</span></li>
-                  <li className="flex gap-2"><span>•</span> <span>Learning how to shoot your own content with confidence and ease</span></li>
-                </ul>
-              </div>
             </div>
           </div>
 
@@ -417,7 +399,7 @@ export default function App() {
           <div className="grid grid-cols-1 lg:grid-cols-12 bg-brand-rose/5 hover:bg-brand-cream transition-colors duration-500">
             <div className="lg:col-span-3 p-8 border-r-[0.5px] border-brand-wine/transparent lg:border-brand-wine/20 flex flex-col justify-start border-b-[0.5px] lg:border-b-0 border-brand-wine/20">
               <div>
-                <span className="text-xs tracking-widest uppercase opacity-50 mb-2 block">5th June</span>
+                <span className="text-xs tracking-widest uppercase opacity-50 mb-2 block">4th October</span>
                 <span className="font-serif text-3xl block">Day 4</span>
               </div>
               <img src={imgDay3} className="w-[calc(100%+4rem)] -mx-8 max-w-none lg:w-full lg:mx-0 lg:max-w-[250px] aspect-[4/5] object-cover mt-8 opacity-90 shadow-sm" alt="Day 3" />
@@ -464,25 +446,22 @@ export default function App() {
               
               <div>
                 <h4 className="font-serif text-2xl mb-1 text-brand-accent">Look 4 <span className="text-sm font-sans tracking-widest opacity-60 uppercase ml-2">(2nd Demo)</span></h4>
-                <p className="text-lg font-serif mb-2 uppercase">THE AIRBRUSHED PLAYFUL GLAM EDIT</p>
-                <p className="text-base font-medium mb-4 italic">Colour • Crystals • Modern Bridal Expression</p>
+                <p className="text-lg font-serif mb-2 uppercase">THE SOUTH INDIAN BRIDAL GLOW EDIT</p>
+                <p className="text-base font-medium mb-4 italic">Layering • Brightening • Skin Perfection • Bridal Aesthetics</p>
                 <p className="text-base font-light opacity-80 mb-6">
-                  A bold, fun take on bridal beauty for the bride who wants to step beyond the classic and explore colour, texture, and individuality
+                  A timeless South Indian bridal look focused on radiant skin, refined layering and an effortlessly elegant bridal finish.
                 </p>
                 <h5 className="font-serif text-lg mb-4 text-brand-accent">TECHNIQUE FOCUS</h5>
                 <ul className="text-sm font-light opacity-80 space-y-3">
-                  <li><strong className="opacity-90">• Airbrush foundation mastery</strong><br/>→ Seamless, thin layering with a skin-like, long-wear finish</li>
-                  <li><strong className="opacity-90">• Airbrush highlighting technique</strong><br/>→ High-shine, diffused glow using the airbrush for a seamless, lit-from-within effect</li>
-                  <li><strong className="opacity-90">• Colour placement strategy</strong><br/>→ Bold tones placed with intention for maximum impact</li>
-                  <li><strong className="opacity-90">• Metallic blending</strong><br/>→ Smooth diffusion with a clean, polished finish</li>
-                  <li><strong className="opacity-90">• Crystal application</strong><br/>→ Secure placement with aesthetic balance</li>
-                  <li><strong className="opacity-90">• Colour coordination</strong><br/>→ Matching tones with outfit & jewellery</li>
-                  <li><strong className="opacity-90">• Undertone understanding</strong><br/>→ Adapting metallic across different undertones</li>
-                  <li><strong className="opacity-90">• Balance of elements</strong><br/>→ Pairing bold eyes with fresh, airbrushed skin</li>
-                  <li className="pt-2 border-t-[0.5px] border-brand-wine/10 mt-2">
-                    • How tools affect finish (sheer vs full vs airbrushed skin)<br/>
-                    • Minimal product, maximum impact approach
-                  </li>
+                  <li><strong className="opacity-90">• Layering Mastery</strong><br/>→ Thin, seamless layers for flawless, long-lasting skin</li>
+                  <li><strong className="opacity-90">• Exact Skin-Tone Matching</strong><br/>→ Matching face, neck & body without looking grey or mismatched</li>
+                  <li><strong className="opacity-90">• Brightening Dusky Skin</strong><br/>→ Brightening strategically without making the skin look ashy</li>
+                  <li><strong className="opacity-90">• Anti-Oxidation Base</strong><br/>→ Preventing the foundation from darkening or changing tone</li>
+                  <li><strong className="opacity-90">• Cream + Powder Fusion</strong><br/>→ Long-lasting dimension with a fresh, skin-like finish</li>
+                  <li><strong className="opacity-90">• Strategic Highlighting</strong><br/>→ Creating radiance while maintaining natural skin tone</li>
+                  <li><strong className="opacity-90">• South Indian Colour Harmony</strong><br/>→ Coordinating makeup with Kanjeevaram, jewellery & flowers</li>
+                  <li><strong className="opacity-90">• South Indian Bridal Aesthetic</strong><br/>→ Creating the perfect balance of traditional elegance and modern sophistication</li>
+                  <li><strong className="opacity-90">• Minimal Product, Maximum Impact</strong><br/>→ Fresh, refined and luxurious bridal skin</li>
                 </ul>
               </div>
               
@@ -493,33 +472,29 @@ export default function App() {
           <div className="grid grid-cols-1 lg:grid-cols-12 hover:bg-brand-cream transition-colors duration-500">
             <div className="lg:col-span-3 p-8 border-r-[0.5px] border-brand-wine/transparent lg:border-brand-wine/20 flex flex-col justify-start border-b-[0.5px] lg:border-b-0 border-brand-wine/20">
               <div>
-                <span className="text-xs tracking-widest uppercase opacity-50 mb-2 block">6th June</span>
+                <span className="text-xs tracking-widest uppercase opacity-50 mb-2 block">5th October</span>
                 <span className="font-serif text-3xl block">Day 5</span>
               </div>
               <img src={imgDay4} className="w-[calc(100%+4rem)] -mx-8 max-w-none lg:w-full lg:mx-0 lg:max-w-[250px] aspect-[4/5] object-cover mt-8 opacity-90 shadow-sm" alt="Day 4" />
             </div>
             <div className="lg:col-span-9 p-8 flex flex-col justify-center">
               <h4 className="font-serif text-2xl mb-1 text-brand-accent">Look 5</h4>
-              <p className="text-lg font-serif mb-2">The Midnight Luxe</p>
+              <p className="text-lg font-serif mb-2 uppercase">THE AIRBRUSHED MIDNIGHT LUXE</p>
+              <p className="text-base font-medium mb-4 italic">Colour • Metallics • Smokey Glam</p>
               <p className="text-base font-light opacity-80 mb-6">
-                Designed for cocktails, receptions, and red carpet moment, this is not just a smokey eye it’s the art of creating a refined, high-glam look that adapts seamlessly to lighting, skin, undertones, and real-life movement.
+                A modern high-glam edit combining flawless airbrushed skin with bold, sophisticated eyes—designed for receptions, cocktails, red-carpet moments and modern brides.
               </p>
               <h5 className="font-serif text-lg mb-4 text-brand-accent">TECHNIQUE FOCUS</h5>
-              <ul className="text-sm font-light opacity-80 space-y-4">
-                <li><strong className="opacity-90 block mb-1">1:) Metal Theory – Gold vs Silver Aesthetic</strong> Warm, cool & Neutral Undertones</li>
-                <li><strong className="opacity-90 block mb-1">2:) Feature Focus</strong> How to read the face & customise a look</li>
-                <li><strong className="opacity-90 block mb-1">3.) Smokey Eye – Soft but Defined</strong>
-                  • Gradient smokey technique<br/>
-                  • Matte + shimmer balance<br/>
-                  • Controlled glitter placement<br/>
-                  • Uurmis signature liner with Smokey eyes
-                </li>
-                <li><strong className="opacity-90 block">4:) Strategic under-eye brightening</strong></li>
-                <li><strong className="opacity-90 block">5:) Layered glow control</strong></li>
-                <li><strong className="opacity-90 block mb-1">6:) Long-Wear Glam (VERY IMPORTANT)</strong>
-                  Especially for: Humidity, long nights, hugs, kisses, sweat, flash photography which includes Grip layering technique
-                </li>
-                <li><strong className="opacity-90 block">7:) Cream + powder fusion → For longevity without heaviness</strong></li>
+              <ul className="text-sm font-light opacity-80 space-y-3">
+                <li><strong className="opacity-90">• Airbrush Skin Mastery</strong><br/>→ Thin, seamless layers for a perfected, skin-like finish</li>
+                <li><strong className="opacity-90">• Metal Theory</strong><br/>→ Gold, silver & mixed metals for different undertones</li>
+                <li><strong className="opacity-90">• The Perfect Smokey Eye</strong><br/>→ Soft-to-defined gradients, matte + shimmer balance & Uurmi’s signature liner</li>
+                <li><strong className="opacity-90">• Feature Focus</strong><br/>→ Understanding the face and customising placement to enhance features</li>
+                <li><strong className="opacity-90">• Colour Placement</strong><br/>→ Using colour intentionally for a bold yet balanced look</li>
+                <li><strong className="opacity-90">• Airbrush Highlighting</strong><br/>→ Creating a soft, diffused, lit-from-within glow</li>
+                <li><strong className="opacity-90">• Glow & Texture Control</strong><br/>→ Balancing matte, shimmer and glow for flawless skin</li>
+                <li><strong className="opacity-90">• Long-Wear Glam</strong><br/>→ Grip layering + cream & powder fusion for humidity, sweat & flash photography</li>
+                <li><strong className="opacity-90">• Light & Makeup</strong><br/>→ Understanding how different finishes look in natural light, evening light & flash</li>
               </ul>
             </div>
           </div>
@@ -528,7 +503,7 @@ export default function App() {
            <div className="grid grid-cols-1 lg:grid-cols-12 hover:bg-brand-cream transition-colors duration-500">
             <div className="lg:col-span-3 p-8 border-r-[0.5px] border-brand-wine/transparent lg:border-brand-wine/20 flex flex-col justify-start border-b-[0.5px] lg:border-b-0 border-brand-wine/20">
               <div>
-                <span className="text-xs tracking-widest uppercase opacity-50 mb-2 block">7th June</span>
+                <span className="text-xs tracking-widest uppercase opacity-50 mb-2 block">6th October</span>
                 <span className="font-serif text-3xl block">Day 6</span>
               </div>
               <img src={imgDay5} className="w-[calc(100%+4rem)] -mx-8 max-w-none lg:w-full lg:mx-0 lg:max-w-[250px] aspect-[4/5] object-cover mt-8 opacity-90 shadow-sm" alt="Day 5" />
@@ -578,38 +553,7 @@ export default function App() {
             </div>
           </div>
 
-          {/* Day 7 */}
-          <div className="grid grid-cols-1 lg:grid-cols-12 bg-white hover:bg-brand-cream transition-colors duration-500">
-            <div className="lg:col-span-3 p-8 border-r-[0.5px] border-brand-wine/transparent lg:border-brand-wine/20 flex flex-col justify-start border-b-[0.5px] lg:border-b-0 border-brand-wine/20">
-              <div>
-                <span className="text-xs tracking-widest uppercase opacity-50 mb-2 block">8th June</span>
-                <span className="font-serif text-3xl block">Day 7</span>
-              </div>
-              <div className="w-[calc(100%+4rem)] -mx-8 max-w-none lg:w-full lg:mx-0 lg:max-w-[250px] aspect-[4/5] mt-8 overflow-hidden lg:rounded-sm shadow-sm bg-brand-wine/5">
-                <img src={imgDay6} className="w-full h-full object-cover opacity-90" alt="Day 6" />
-              </div>
-            </div>
-             <div className="lg:col-span-9 p-8 border-r-[0.5px] border-brand-wine/20 flex flex-col justify-center border-b-[0.5px] lg:border-b-0 border-brand-wine/20">
-              <p className="text-base font-light opacity-80 mb-6 mt-1">This time, we’ve gone deeper, so you don’t just learn makeup, you become an artist clients trust and choose. After months of research, conversations with industry experts, and understanding what truly works in today’s market, we’ve built a day focused on what actually drives success in-depth knowledge, refined technique, and real artistry.</p>
-              
-              <h5 className="font-serif text-xl mb-2 flex items-center">Certification Ceremony</h5>
-              <p className="text-sm font-light opacity-80 mb-8">Receive your official certification upon successful completion, marking your elevation as a refined and industry-ready makeup artist</p>
 
-              <p className="font-serif text-xl mb-4 text-brand-accent">You can either:</p>
-              <div className="flex flex-col sm:flex-row gap-8">
-                 <div className="flex-1 p-6 border-[0.5px] border-brand-wine/20 bg-brand-cream/50">
-                   <h5 className="font-serif text-lg mb-2 uppercase tracking-wide">• ELEVATE YOUR SKILLSET</h5>
-                   <p className="text-sm font-light opacity-80 mb-2">(PRACTICE WITH UURMI)</p>
-                 </div>
-                 <div className="flex items-center justify-center font-serif text-xl opacity-60">OR</div>
-                 <div className="flex-1 p-6 border-[0.5px] border-brand-wine/20 bg-brand-rose/10">
-                   <h5 className="font-serif text-lg mb-2 flex items-center uppercase tracking-wide">• BUILD YOUR PORTFOLIO</h5>
-                   <p className="text-sm font-light opacity-80 mb-2">(OPTIONAL)<br/>Fee - 40,000/- additional</p>
-                 </div>
-              </div>
-              <p className="mt-8 text-base font-light opacity-80 max-w-2xl">Either way—you don’t just leave with knowledge, you leave with confidence, clarity, and a stronger identity as an artist.</p>
-            </div>
-          </div>
         </div>
       </section>
 
@@ -722,8 +666,8 @@ export default function App() {
           
           <div className="p-8 sm:p-12 md:p-16 flex flex-col justify-center border-b-[0.5px] md:border-b-0 md:border-r-[0.5px] border-brand-wine/20">
              <span className="text-sm tracking-[0.3em] uppercase opacity-50 mb-4 block leading-relaxed">Course Fee</span>
-             <h2 className="font-serif text-4xl sm:text-5xl mb-4 break-words">₹1,40,000/-</h2>
-             <p className="text-base font-light opacity-70 leading-relaxed mb-4">Includes 7 days of comprehensive training and 1 portfolio shoot.</p>
+             <h2 className="font-serif text-4xl sm:text-5xl mb-4 break-words">₹1,15,000/-</h2>
+             <p className="text-base font-light opacity-70 leading-relaxed mb-4">Includes 6 days of comprehensive training and 1 portfolio shoot.</p>
              <p className="text-sm font-light opacity-60 leading-relaxed italic border-t-[0.5px] border-brand-wine/10 pt-4 mt-auto">Seats will be allotted on a first-come, first-served basis, as we intentionally keep our batches limited and intimate to ensure personalised attention and a high-quality learning experience.</p>
           </div>
           
@@ -751,7 +695,7 @@ export default function App() {
             </FadeIn>
 
             <h4 className="font-serif text-2xl uppercase tracking-widest mb-6 text-brand-wine">Location</h4>
-            <p className="text-sm md:text-base font-medium uppercase tracking-widest opacity-80 flex items-center justify-center gap-3 mb-10"><MapPin className="w-4 h-4 shrink-0 text-brand-accent" /> <span className="truncate">MUMBAI, ANDHERI</span></p>
+            <p className="text-sm md:text-base font-medium uppercase tracking-widest opacity-80 flex items-center justify-center gap-3 mb-10"><MapPin className="w-4 h-4 shrink-0 text-brand-accent" /> <span className="truncate">HYDERABAD</span></p>
 
             <p className="text-sm font-light mt-4 opacity-60 leading-relaxed max-w-xl mx-auto border-t-[0.5px] border-brand-wine/20 pt-8">
               <strong>OPPORTUNITIES</strong><br/><br/>
