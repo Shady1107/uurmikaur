@@ -291,7 +291,6 @@ export default function App() {
                 <span className="text-sm font-script mt-2 text-brand-accent block">Optional</span>
               </div>
               <img src={imgDay0} className="w-[calc(100%+4rem)] -mx-8 max-w-none lg:w-full lg:mx-0 lg:max-w-[250px] aspect-[4/5] object-cover mt-8 opacity-90 shadow-sm" alt="Day 1" />
-              <img src={imgExtra} className="w-[calc(100%+4rem)] -mx-8 max-w-none lg:w-full lg:mx-0 lg:max-w-[250px] aspect-square object-cover mt-8 opacity-90 shadow-sm" alt="Day 1 Extra" />
             </div>
             <div className="lg:col-span-4 p-8 border-r-[0.5px] border-brand-wine/20 hidden lg:flex items-center justify-center">
                <img 
