@@ -258,18 +258,12 @@ export default function App() {
 
       {/* New Gallery Section */}
       <section className="bg-brand-cream border-t-[0.5px] border-brand-wine/20">
-        <div className="grid grid-cols-2 md:grid-cols-4 w-full">
-          <div className="aspect-[4/5] border-r-[0.5px] border-b-[0.5px] md:border-b-0 border-brand-wine/20 p-4 lg:p-8 hover:bg-brand-rose/5 transition-colors overflow-hidden group">
-            <img src={imgGallery1} alt="Gallery image 1" className="w-full h-full object-cover rounded-sm shadow-sm opacity-90 group-hover:scale-105 transition-transform duration-700" />
+        <div className="grid grid-cols-2 w-full">
+          <div className="aspect-[4/5] border-r-[0.5px] border-b-[0.5px] md:border-b-0 border-brand-wine/20 p-4 lg:p-8 hover:bg-brand-rose/5 transition-colors overflow-hidden group flex items-center justify-center">
+            <img src={imgGallery1} alt="Gallery image 1" className="w-full h-full object-contain rounded-sm shadow-sm opacity-90 group-hover:scale-105 transition-transform duration-700" />
           </div>
-          <div className="aspect-[4/5] border-b-[0.5px] md:border-b-0 md:border-r-[0.5px] border-brand-wine/20 p-4 lg:p-8 hover:bg-brand-rose/5 transition-colors overflow-hidden group">
-            <img src={imgGallery2} alt="Gallery image 2" className="w-full h-full object-cover rounded-sm shadow-sm opacity-90 group-hover:scale-105 transition-transform duration-700" />
-          </div>
-          <div className="aspect-[4/5] border-r-[0.5px] border-brand-wine/20 p-4 lg:p-8 hover:bg-brand-rose/5 transition-colors overflow-hidden group">
-            <img src={imgGallery3} alt="Gallery image 3" className="w-full h-full object-cover rounded-sm shadow-sm opacity-90 group-hover:scale-105 transition-transform duration-700" />
-          </div>
-          <div className="aspect-[4/5] p-4 lg:p-8 hover:bg-brand-rose/5 transition-colors overflow-hidden group">
-            <img src={imgGallery4} alt="Gallery image 4" className="w-full h-full object-cover rounded-sm shadow-sm opacity-90 group-hover:scale-105 transition-transform duration-700" />
+          <div className="aspect-[4/5] p-4 lg:p-8 hover:bg-brand-rose/5 transition-colors overflow-hidden group flex items-center justify-center">
+            <img src={imgGallery4} alt="Gallery image 4" className="w-full h-full object-contain rounded-sm shadow-sm opacity-90 group-hover:scale-105 transition-transform duration-700" />
           </div>
         </div>
       </section>
@@ -464,6 +458,16 @@ export default function App() {
                 <h4 className="font-serif text-2xl mb-1 text-brand-accent">Look 4 <span className="text-sm font-sans tracking-widest opacity-60 uppercase ml-2">(2nd Demo)</span></h4>
                 <p className="text-lg font-serif mb-2 uppercase">THE SOUTH INDIAN BRIDAL GLOW EDIT</p>
                 <p className="text-base font-medium mb-4 italic">Radiant • Authentic • Timeless</p>
+                
+                <div className="grid grid-cols-2 gap-4 mb-6">
+                  <div className="aspect-[4/5] bg-brand-wine/5 overflow-hidden rounded-sm shadow-sm flex items-center justify-center">
+                    <img src={imgGallery3} alt="Look 4 Image 1" className="w-full h-full object-contain opacity-90" />
+                  </div>
+                  <div className="aspect-[4/5] bg-brand-wine/5 overflow-hidden rounded-sm shadow-sm flex items-center justify-center">
+                    <img src={imgGallery2} alt="Look 4 Image 2" className="w-full h-full object-contain opacity-90" />
+                  </div>
+                </div>
+
                 <p className="text-base font-light opacity-80 mb-6">
                   A bold, fun take on bridal beauty for the bride who wants to step beyond the classic and explore colour, texture, and individuality
                 </p>
