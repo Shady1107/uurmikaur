@@ -30,7 +30,7 @@ const imgDay6 = '/images/6.png';
 const imgGallery1 = '/images/1787339116840.jpg';
 const imgGallery2 = '/images/633122328_18405341515133135_7244304789917264818_n.jpg';
 const imgGallery3 = '/images/669996626_18198275185342215_4335070919267704829_n.jpg';
-const imgGallery4 = '/images/658209024_18089137420949555_6261916872500716532_n.jpg';
+const imgGallery4 = '/images/1787554108670.jpg';
 
 // Editorial grid fine lines components
 const Crosshair = ({ className = '' }: { className?: string }) => (
@@ -260,10 +260,10 @@ export default function App() {
       <section className="bg-brand-cream border-t-[0.5px] border-brand-wine/20">
         <div className="grid grid-cols-2 w-full">
           <div className="aspect-[4/5] border-r-[0.5px] border-b-[0.5px] md:border-b-0 border-brand-wine/20 p-4 lg:p-8 hover:bg-brand-rose/5 transition-colors overflow-hidden group flex items-center justify-center">
-            <img src={imgGallery1} alt="Gallery image 1" className="w-full h-full object-contain rounded-sm shadow-sm opacity-90 group-hover:scale-105 transition-transform duration-700" />
+            <img src={imgGallery2} alt="Gallery image 1" className="w-full h-full object-contain rounded-sm shadow-sm opacity-90 group-hover:scale-105 transition-transform duration-700" />
           </div>
           <div className="aspect-[4/5] p-4 lg:p-8 hover:bg-brand-rose/5 transition-colors overflow-hidden group flex items-center justify-center">
-            <img src={imgGallery4} alt="Gallery image 4" className="w-full h-full object-contain rounded-sm shadow-sm opacity-90 group-hover:scale-105 transition-transform duration-700" />
+            <img src={imgGallery3} alt="Gallery image 4" className="w-full h-full object-contain rounded-sm shadow-sm opacity-90 group-hover:scale-105 transition-transform duration-700" />
           </div>
         </div>
       </section>
@@ -461,10 +461,10 @@ export default function App() {
                 
                 <div className="grid grid-cols-2 gap-4 mb-6">
                   <div className="aspect-[4/5] bg-brand-wine/5 overflow-hidden rounded-sm shadow-sm flex items-center justify-center">
-                    <img src={imgGallery3} alt="Look 4 Image 1" className="w-full h-full object-contain opacity-90" />
+                    <img src={imgGallery1} alt="Look 4 Image 1" className="w-full h-full object-contain opacity-90" />
                   </div>
                   <div className="aspect-[4/5] bg-brand-wine/5 overflow-hidden rounded-sm shadow-sm flex items-center justify-center">
-                    <img src={imgGallery2} alt="Look 4 Image 2" className="w-full h-full object-contain opacity-90" />
+                    <img src={imgGallery4} alt="Look 4 Image 2" className="w-full h-full object-contain opacity-90" />
                   </div>
                 </div>
 
