@@ -693,7 +693,7 @@ export default function App() {
           
           <div className="p-8 sm:p-12 md:p-16 flex flex-col justify-center border-b-[0.5px] md:border-b-0 md:border-r-[0.5px] border-brand-wine/20">
              <span className="text-sm tracking-[0.3em] uppercase opacity-50 mb-4 block leading-relaxed">Course Fee</span>
-             <h2 className="font-serif text-4xl sm:text-5xl mb-4 break-words">₹1,15,000/-</h2>
+             <h2 className="font-serif text-4xl sm:text-5xl mb-4 break-words">₹1,25,000/-</h2>
              <p className="text-base font-light opacity-70 leading-relaxed mb-4">Includes 6 days of comprehensive training and 1 portfolio shoot.</p>
              <p className="text-sm font-light opacity-60 leading-relaxed italic border-t-[0.5px] border-brand-wine/10 pt-4 mt-auto">Seats will be allotted on a first-come, first-served basis, as we intentionally keep our batches limited and intimate to ensure personalised attention and a high-quality learning experience.</p>
           </div>
