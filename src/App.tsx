@@ -9,7 +9,6 @@ const imgExtra = '/images/IMG_0910.JPG';
 const imgBeautyService = '/images/uurmikaurr_1776530868942.png';
 const imgSkincarePrep = '/images/IMG_5952.JPEG';
 const imgSummerGlow = '/images/IMG_5994.png';
-const imgClassDive = '/images/makeupbyurmikaur_1776599387577.png';
 const imgRoseShadow = '/images/makeupbyurmikaur_1776599391933.png';
 
 const imgCouture1 = '/images/makeupbyurmikaur_1776599422724.png';
@@ -24,7 +23,7 @@ const imgDay1 = '/images/1.png';
 const imgDay2 = '/images/2.png';
 const imgDay3 = '/images/3.png';
 const imgDay4 = '/images/4.png';
-const imgDay5 = '/images/5.png';
+const imgDay5 = '/im/5.png';
 const imgDay6 = '/images/6.png';
 
 const imgGallery1 = '/images/1787339116840.jpg';
